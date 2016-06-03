@@ -1,0 +1,1348 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"marr",
+				"margin-right"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"bor",
+				"border-left"
+			],
+			[
+				"anm",
+				"animate"
+			],
+			[
+				"borbor",
+				"border-bottom-color"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"for",
+				"for	for …"
+			],
+			[
+				"isadmin",
+				"is_user_admin"
+			],
+			[
+				"bas",
+				"background-size"
+			],
+			[
+				"home",
+				"home-2016"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"fonts",
+				"font-size"
+			],
+			[
+				"backgr",
+				"background"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"fns",
+				"font-size"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"tr",
+				"transition"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"class",
+				"classes"
+			],
+			[
+				"slid",
+				"slideBar"
+			],
+			[
+				"header",
+				"headerHeight"
+			],
+			[
+				"head",
+				"headerHeight"
+			],
+			[
+				"slide",
+				"slidePosition"
+			],
+			[
+				"l",
+				"line-height"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"backgro",
+				"background-size"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"backgrou",
+				"background-image"
+			],
+			[
+				"prospect",
+				"prospect-management"
+			],
+			[
+				"fot",
+				"font-size"
+			],
+			[
+				"will",
+				"willClick"
+			],
+			[
+				"resour",
+				"resources"
+			],
+			[
+				"i",
+				"important"
+			],
+			[
+				"bot",
+				"bottom"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"get_direct",
+				"get_stylesheet_directory_uri"
+			],
+			[
+				"ligh",
+				"Lightbox"
+			],
+			[
+				"lef",
+				"leftAdjust"
+			],
+			[
+				"image",
+				"imagewidth"
+			],
+			[
+				"lig",
+				"lightbox_content"
+			],
+			[
+				"first",
+				"first_name"
+			],
+			[
+				"att",
+				"attachment_id"
+			],
+			[
+				"get_the",
+				"get_the_excerpt"
+			],
+			[
+				"w",
+				"window"
+			],
+			[
+				"timezon",
+				"timezoneFix"
+			],
+			[
+				"get_sty",
+				"get_stylesheet_directory_uri"
+			],
+			[
+				"wp_reset",
+				"wp_reset_query"
+			],
+			[
+				"br",
+				"brickswag"
+			],
+			[
+				"archivelin",
+				"get_post_type_archive_link"
+			],
+			[
+				"paddig",
+				"padding-bottom"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"prin",
+				"printf"
+			],
+			[
+				"tweet",
+				"tweets"
+			],
+			[
+				"twit",
+				"twitter_user"
+			],
+			[
+				"s",
+				"font-size"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"hge",
+				"line-height"
+			],
+			[
+				"deletetr",
+				"delete_transient"
+			],
+			[
+				"wp_enque",
+				"wp_enqueue_script"
+			],
+			[
+				"instagram",
+				"instagram_user"
+			],
+			[
+				"brn",
+				"brunocantuaria"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"out",
+				"outline"
+			],
+			[
+				"t",
+				"top"
+			],
+			[
+				"query",
+				"query_posts"
+			],
+			[
+				"getstyl",
+				"get_stylesheet_directory_uri"
+			],
+			[
+				"get_page_templae",
+				"get_page_template"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"shortcode",
+				"shortcode_atts"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"border-",
+				"border-bottom"
+			],
+			[
+				"have",
+				"have_posts"
+			],
+			[
+				"WP_Q",
+				"WP_Query"
+			],
+			[
+				"poa",
+				"padding-top"
+			],
+			[
+				"f",
+				"float"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"foi",
+				"font-weight"
+			],
+			[
+				"get_post_me",
+				"get_post_meta"
+			],
+			[
+				"get_post_met",
+				"get_post_meta_by_id"
+			],
+			[
+				"functio",
+				"function_exists"
+			],
+			[
+				"has",
+				"hasClass"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"get_page_b",
+				"get_page_by_title"
+			],
+			[
+				"fed",
+				"fadeTo"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"tog",
+				"toggleClass"
+			],
+			[
+				"str_rep",
+				"str_replace"
+			],
+			[
+				"last",
+				"last-of-type"
+			],
+			[
+				"val",
+				"validate"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"mna",
+				"margin-bottom"
+			],
+			[
+				"backs",
+				"background-size"
+			],
+			[
+				"get_templa",
+				"get_template_directory_uri"
+			],
+			[
+				"va",
+				"validation"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"set",
+				"setTimeout"
+			],
+			[
+				"false",
+				"false"
+			],
+			[
+				"prep",
+				"prepend"
+			],
+			[
+				"remove",
+				"removeit"
+			],
+			[
+				"prepend",
+				"prependTo"
+			],
+			[
+				"infer",
+				"infer-logo"
+			],
+			[
+				"wheel",
+				"wheel-column"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "infer-form-monitor.php",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "gru",
+		"selected_items":
+		[
+			[
+				"gru",
+				"Grunt: Kill Running Tasks"
+			],
+			[
+				"gr",
+				"Grunt"
+			],
+			[
+				"GRU",
+				"Grunt: Kill Running Tasks"
+			],
+			[
+				"grun",
+				"Grunt: Kill Running Tasks"
+			],
+			[
+				"grtu",
+				"Grunt: Kill Running Tasks"
+			],
+			[
+				"git ad",
+				"Git: Add All"
+			],
+			[
+				"git pull",
+				"Git: Pull"
+			],
+			[
+				"git pul",
+				"Git: Pull"
+			],
+			[
+				"grunt",
+				"Grunt: Kill Running Tasks"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git ",
+				"Git: Custom Command"
+			],
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				"git a",
+				"Git: Add All"
+			],
+			[
+				"git c",
+				"Git: Commit"
+			],
+			[
+				"git pu",
+				"Git: Pull"
+			],
+			[
+				"git ad ",
+				"Git: Add All"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"git p",
+				"Git: Pull"
+			],
+			[
+				"git cus",
+				"Git: Custom Command"
+			],
+			[
+				"git cu",
+				"Git: Custom Command"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"git ad a",
+				"Git: Add All"
+			],
+			[
+				"GRUN",
+				"Grunt: Kill Running Tasks"
+			],
+			[
+				"git ada",
+				"Git: Add All"
+			],
+			[
+				"git al",
+				"Git: Add All"
+			],
+			[
+				"grunt k",
+				"Grunt: Kill Running Tasks"
+			],
+			[
+				"grunk ",
+				"Grunt: Kill Running Tasks"
+			],
+			[
+				"grunt l",
+				"Grunt: Kill Running Tasks"
+			],
+			[
+				"git add",
+				"Git: Add All"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"grunt ",
+				"Grunt: Kill Running Tasks"
+			],
+			[
+				"git add all",
+				"Git: Add All"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"git add ",
+				"Git: Add All"
+			],
+			[
+				"git add al",
+				"Git: Add All"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"git stats",
+				"Git: Status"
+			],
+			[
+				"gur",
+				"Git: Pull Using Rebase"
+			],
+			[
+				"git",
+				"Git: Custom Command"
+			],
+			[
+				"gitpul",
+				"Git: Pull"
+			],
+			[
+				"package remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"gitsav",
+				"GitSavvy: help"
+			],
+			[
+				"gitpull",
+				"git: pull"
+			],
+			[
+				"git: stats",
+				"git: status"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"Package Control: up",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"g",
+				"Grunt"
+			],
+			[
+				"grnt",
+				"Grunt"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,sys; exec(\"if sys.version_info < (3,) or os.name != 'nt': raise OSError('This code is for Windows ST3 only!')\"); pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			" import urllib.request,os,sys; exec(\"if sys.version_info < (3,) or os.name != 'nt': raise OSError('This code is for Windows ST3 only!')\"); pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Projetos/UwAmp/www/form/wp-content/plugins/infer-form-monitor"
+	],
+	"file_history":
+	[
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/assets/less/sub/page-behavior.less",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/behavior/quote.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/googleanalytics/benefits.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/googleanalytics/splash.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/assets/less/sub/page-market-integrations.less",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/googleanalytics/slides.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/fit/resources.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/behavior/resources.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/assets/less/sub/page-integrations.less",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/integrations/splash.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/assets/less/sub/page-prospect-management.less",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/assets/less/sub/page-net-new.less",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/assets/less/sub/page-fit.less",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/behavior/work.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/behavior/slides.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/integrations/slides.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/behavior/example.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/netnew/quote.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/netnew/deliver.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/netnew/steps.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/assets/less/theme.less",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/assets/js/theme.src.js",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/netnew/slides.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/netnew/discover.php",
+		"/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/functions.php",
+		"/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/header.php",
+		"/C/Projetos/UwAmp/www/.htaccess",
+		"/C/Projetos/UwAmp/www/index.php",
+		"/C/Projetos/UwAmp/www/infer/wp-config.php",
+		"/C/Projetos/UwAmp/www/wp-config.php",
+		"/C/Projetos/UwAmp/www/infer/.htaccess",
+		"/C/Projetos/UwAmp/www/infer/keyplay.php",
+		"/C/Projetos/UwAmp/www/keyplay.php",
+		"/C/Projetos/UwAmp/www/afilio.php",
+		"/C/Projetos/UwAmp/www/fabrica.php",
+		"/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/style.css",
+		"/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/tpl-planos.php",
+		"/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/form-checkout 2.php",
+		"/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/class-vindi-api.php",
+		"/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/vindi-woocommerce-subscriptions.php",
+		"/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/creditcard-checkout.html 2.php",
+		"/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/product-list.php",
+		"/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/product-list 2.php",
+		"/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/class-vindi-creditcard-gateway.php",
+		"/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/creditcard-checkout.html.php",
+		"/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/class-vindi-payment.php",
+		"/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/readme.txt",
+		"/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/form-checkout.php",
+		"/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/content-page.php",
+		"/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/page.php",
+		"/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/tpl-interna.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/assets/less/sub/page-account.less",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/account/slides.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/content-home-2016.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/prospect/slides.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/fit/slides.php",
+		"/C/Projetos/UwAmp/www/plangrid-staging/.gitignore",
+		"/C/Users/Bruno/AppData/Roaming/Skype/My Skype Received Files/curl.php",
+		"/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/artref_agenda.php",
+		"/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/index.html",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/common-slide-button.php",
+		"/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/index.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/prospect/splash.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/prospect/glance.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/customers/socialtables/cta.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/customers/socialtables/challenge.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/assets/less/sub/page-profile-builder.less",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/customers/socialtables/hero.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/assets/less/sub/customer-socialtables.less",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/customers/socialtables/quote.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/assets/less/_mixins.less",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/assets/less/sub/page-try.less",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/assets/less/sub/page-prospect.less",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/head.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/assets/less/index.html",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/style.css",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/assets/vendor/flourishui/css/flourishui.min.css",
+		"/C/Users/Bruno/Pictures/inferpardot.js",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/try/signup.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/functions.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/template-test-execution.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/template-customers.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/theme/setup.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/eloqua/slides.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/pardot/slides.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/eloqua/splash.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/customers/socialtables/benefits.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/single-customer-socialtables.php",
+		"/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/cardio.css",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/assets/less/sub/page-socialtables.less",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/socialtables/cta.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/socialtables/benefits.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/socialtables/solution.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/socialtables/challenge.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/socialtables/quote.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/socialtables/hero.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/template-social-tables.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/content-home-2015.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/template-about-us.php",
+		"/C/Users/Bruno/AppData/Local/Temp/7zO8C681CE3/browser-shots.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/header-mapping.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/template-score-builtwith.php",
+		"/C/Projetos/UwAmp/www/litton/wp-config.php",
+		"/C/Projetos/UwAmp/www/wp-content/themes/cantuaria-starter/assets/js/theme.src.js",
+		"/C/Projetos/UwAmp/www/WP-Quick-Install/README.md",
+		"/C/Projetos/UwAmp/www/infer/.git/config",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/salesforce/products.php",
+		"/C/Projetos/UwAmp/www/wp-content/themes/cayuga/.git/config",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/template-roi-step-2.php",
+		"/C/Projetos/UwAmp/www/wp-content/themes/cantuaria-starter/.git/config",
+		"/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/sidebar-secondary.php",
+		"/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/sidebar.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/single-news.php",
+		"/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/setup.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/archive-news.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/prospect/resources.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/fit/splash.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/behavior/splash.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/salesforce/benefits.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/marketo/products.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/marketo/splash.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/marketo/benefits.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/googleanalytics/products.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/prospect/cases.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/topo-footer.php",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/account/resources.php",
+		"/C/Projetos/UwAmp/www/cloudapps/.git/config",
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/theme/helpers.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\Projetos\\UwAmp\\www\\infer\\wp-content\\themes\\Infer",
+			"C:\\Projetos\\UwAmp\\www\\infer\\wp-content\\themes\\Infer\\",
+			"C:\\Projetos\\UwAmp\\www\\infer\\wp-content\\themes\\Infer\\templates",
+			"C:\\Projetos\\UwAmp\\www\\infer\\wp-content\\themes\\Infer",
+			"C:\\Projetos\\UwAmp\\www\\infer\\wp-content\\plugins\\amp",
+			"C:\\Projetos\\UwAmp\\www\\infer\\wp-content\\themes\\Infer\\templates",
+			"C:\\Projetos\\UwAmp\\www\\infer\\wp-content\\themes\\Infer",
+			"C:\\Projetos\\UwAmp\\www\\infer\\wp-content\\themes\\Infer\\assets\\less",
+			"C:\\Projetos\\UwAmp\\www\\infer\\wp-content\\themes\\Infer",
+			"C:\\Dropbox\\www\\UwAmp\\www\\infer\\wp-content\\themes\\Infer",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"#BENEFITS",
+			".bjqs-c",
+			".slide",
+			"#benefi",
+			"#resources",
+			"9",
+			"slide-wrapper",
+			".headslide",
+			"template",
+			"templates",
+			"class-vindi-creditcard-gateway.php",
+			"templa",
+			"VIEWS_DIR",
+			"templates",
+			"img",
+			"markers",
+			"73",
+			".headslide",
+			"335px",
+			"bjqs-control",
+			"bjqs-markers",
+			".button",
+			"controls",
+			"bjqs-conton",
+			"trigger-cont",
+			"bjqs",
+			"home-performance",
+			"wheel",
+			"#trigger-bar-slide",
+			".button",
+			";\n",
+			"xmlns:",
+			"home-som",
+			"trigger",
+			"home-som",
+			"trigger-buttons",
+			"home-easy",
+			"trigger-buttons",
+			"home",
+			"trigger-buttons",
+			"stop",
+			"animateCircle",
+			"canvas",
+			"circleProgress",
+			"wheel",
+			"home-per",
+			"template",
+			"concur",
+			"head",
+			"640",
+			".bjqs",
+			".slideshow",
+			".bjqs {",
+			"img",
+			"#slides",
+			"trigger",
+			"p {",
+			"template",
+			"vertical",
+			"blockquo",
+			"challene",
+			"bottom-title",
+			"overview",
+			"vert",
+			"white",
+			"home-som",
+			"#page",
+			"#HOME-SI",
+			"<!--",
+			"menu",
+			".toggle",
+			"a",
+			"menu",
+			"(min-width:980px)",
+			"980px",
+			".menu",
+			"orange",
+			".menu",
+			"#head .head-menu .menu",
+			".menu",
+			"overflow: a",
+			".menu",
+			"toggle",
+			"head-title",
+			"head-social",
+			"$url",
+			"footer",
+			"navsig",
+			"navlogin",
+			"#head",
+			">\n",
+			"slideshow",
+			"radio",
+			"/img/socialtables/",
+			"p {",
+			"515A42C88E55DD0C7.css",
+			"515A42C88E55DD0C7.css ",
+			"inferga.js",
+			"ga",
+			"inferga.js",
+			"515A42C88E55DD0C7",
+			"href",
+			"jshint",
+			"blog4",
+			"CHOU",
+			"slides-button.png",
+			"#trigger-ba",
+			"trigger-bar",
+			"post-type-archive-news",
+			"news",
+			"Lists",
+			"prospect management",
+			"Prospect Management",
+			"prospect",
+			"homepage-som",
+			"template",
+			"topo-popup",
+			"blog",
+			"topo-popup",
+			"rel",
+			".pagination",
+			"rel",
+			"theme_content_nav",
+			"remodal.js",
+			"quicksand.js",
+			"owl.carousel.min",
+			"lightbox.js",
+			"jquery.visible."
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"(min-width:920px)",
+			"/img/customer/socialtables/",
+			"",
+			"hubspot",
+			"<div class=\"column md-5\">",
+			"<div class=\"column md-7\">",
+			"Prospect Management",
+			"/assets/img/prospect-management/",
+			"prospect",
+			"/assets/img/account/account-screenshot.png",
+			"account",
+			"scoring.jpg",
+			"/behavior/",
+			"behavior",
+			"<div class=\"clear clearfix\"></div><div class=\"column xs-2\"></div>",
+			"</div><div class=\"clear clearfix\"></div>",
+			"<div class=\"column xs-2\"></div>\n			<div class=\"column xs-8 sm-6 md-3\">",
+			"<div class=\"column xs-2\"></div><div class=\"column xs-2\"></div>\n			<div class=\"column xs-8 sm-6 md-3\">",
+			"<div class=\"column xs-2\"></div>\n<div class=\"column xs-8 sm-6 md-3\">",
+			"xs-8",
+			"xs-12",
+			"sm-6",
+			"Donec elit libero, sodales nec, volutpat a, suscipit non, turpis. Maecenas ullamcorper, dui et placerat feugiat, eros pede varius nisi, condimentum viverra felis nunc et lorem.",
+			"md-8",
+			"md-4",
+			"wp-content/themes/Infer/assets/",
+			"extretec.com.br",
+			"/",
+			"fit/",
+			"\"",
+			"'",
+			"",
+			"on(",
+			"\\n",
+			"&:hover, &:focus",
+			"\\n",
+			"half",
+			"COAz3277biAJuiqFsS0Z0UQyEHpQgZ7unEDbMoRpfZ5DSoCh80",
+			"Ww2fusUPdtxu8hiEbTFg9jOJ0",
+			"post_to_url",
+			"'Varela Round'",
+			"<?php echo get_stylesheet_directory_uri(); ?>/favicon/",
+			"XXXX... 7584",
+			"3600",
+			"<h2 class=\"stylized\">",
+			"pia_inst_access",
+			".pia_social_bar .container > div",
+			"font-family: 'PT Sans'",
+			"jpg) no-repeat center center;",
+			", array( 'echo' => false ) )",
+			"services-",
+			"require_once",
+			"",
+			"/",
+			"strong>",
+			"strong",
+			"example@",
+			"\\n",
+			"Sample-Email@",
+			"$.each",
+			"$(",
+			"jQuery.each",
+			"jQuery(",
+			"",
+			"$(window).bind('click', function(){ $('html').trigger('tap'); });",
+			"$('html').bind('tap'",
+			"\\'",
+			"$('#score-menu')",
+			"http://custogamer.com/wp-content/themes/comparagames/images/mail",
+			"return false;",
+			"'",
+			"varName",
+			".score-result .list-e",
+			"'",
+			"globalAnimate",
+			"md-12 social",
+			"md-12 title",
+			"md-12 social",
+			"md-12",
+			"\\n",
+			"<?php echo get_template_directory_uri(); ?>/assets/img/careers/",
+			"</div>\n	<div class=\"column md-12\">",
+			"<?php echo get_template_directory_uri(); ?>/assets/img/news/",
+			"\\n<div class=\"press-release\">",
+			"</a>\\n",
+			"/assets/img/logos/",
+			"md-2 social",
+			"",
+			"<?php echo get_template_directory_uri(); ?>/assets/img/customer",
+			"h4",
+			"<?php echo get_template_directory_uri(); ?>/assets/img/customer",
+			"<?php echo get_template_directory_uri(); ?>/assets/img/home",
+			"<hr class=\"clear\" />",
+			"</div",
+			"<div",
+			"<?php echo get_template_directory_uri(); ?>/assets/img/customer/",
+			"../img/metabox/",
+			"\\n",
+			"../images/",
+			"\\n",
+			"get_template_directory_uri",
+			"get_stylesheet_directory_uri",
+			"contato_fade_fecha();",
+			"",
+			"$('#",
+			"arquivoc.",
+			"arquivob.",
+			"arquivo",
+			"rgba(255,255,255,0.2)",
+			"\\n",
+			"'ivpa'",
+			"get_template_directory_uri",
+			"cai_",
+			"tecnodev_contato",
+			"#arquivo",
+			"THEMENAME"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "infer-form-monitor.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.GitSavvy":
+	{
+		"height": 130.0
+	},
+	"output.exec":
+	{
+		"height": 142.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 130.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "form-monitor.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 552.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Projetos\\UwAmp\\www\\plangrid\\plangrid.sublime-project"
+			],
+			[
+				"lit",
+				"H:\\Projetos\\litton.sublime-workspace"
+			],
+			[
+				"cus",
+				"H:\\Projetos\\CustoGamer.sublime-project"
+			]
+		],
+		"width": 420.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 624.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 283.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

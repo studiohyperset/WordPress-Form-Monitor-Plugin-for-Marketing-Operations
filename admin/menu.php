@@ -16,7 +16,8 @@ function infer_form_admin_style() {
 			'errorInvalidEmail' => __( 'Please insert a valid email.', INFERFORMNAME ),
 			'errorNoFile' => __( 'You must send at least one CSV file.', INFERFORMNAME ),
 			'errorUploadingFile' => __( 'Your file is being uploaded, please wait and try again.', INFERFORMNAME ),
-			'errorUploadedFile' => __( 'You must upload valid CSV files. Please refer to the CSV Template.', INFERFORMNAME ),
+			'errorUploadedFile' => __( 'The uploaded file does not seems to be a CSV file.', INFERFORMNAME ),
+			'errorUploadedFileInvalid' => __( 'You must upload a valid CSV file. Please refer to the CSV Template.', INFERFORMNAME ),
 		);
 		wp_localize_script( 'infer-admin-script', 'messages', $translation_array );
 
@@ -70,14 +71,10 @@ function form_monitor_plugin_page(  ) {
 					<div id="media-items" class="hide-if-no-js"></div>
 				</form>
 
-				<h2>Latest reports <a href="#">Download reports</a></h2>
+				<?php infer_form_menu_admin_log_tests(); ?>
 
-				<table>
-					<tr><td>May 1, 2016</td></tr>
-					<tr><td>May 15, 2016</td></tr>
-					<tr><td>May 31, 2016</td></tr>
-				</table>
-				To maintain a complete log of reports, please submit your email adress.
+				<?php infer_form_menu_admin_registered_tests(); ?>
+				
 			</div>
 
 			<div class="second-column">
@@ -104,4 +101,3 @@ function form_monitor_plugin_page(  ) {
 	<?php
 
 }
-

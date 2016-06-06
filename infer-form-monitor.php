@@ -15,4 +15,6 @@ define(INFERFORMNAME, 'infer-form-monitor');
 
 
 require_once( INFERFORMPATH . '/admin/menu.php');
+require_once( INFERFORMPATH . '/admin/admin-functions.php');
+require_once( INFERFORMPATH . '/admin/admin-ajax.php');
 require_once( INFERFORMPATH . '/core/ajax.php');

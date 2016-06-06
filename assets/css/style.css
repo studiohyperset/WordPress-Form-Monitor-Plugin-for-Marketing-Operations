@@ -141,6 +141,13 @@
 .toplevel_page_form_monitor .wrap table tr:nth-of-type(2n+2) {
   background-color: #f9f9f9;
 }
+.toplevel_page_form_monitor .wrap table.registered td:last-of-type:not(:first-of-type) {
+  text-align: right;
+}
+.toplevel_page_form_monitor .wrap table.registered td:last-of-type:not(:first-of-type) a {
+  text-decoration: none;
+  color: #aaa;
+}
 .toplevel_page_form_monitor .wrap p.error-message {
   color: red;
 }

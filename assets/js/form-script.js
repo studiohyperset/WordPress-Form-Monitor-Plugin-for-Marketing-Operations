@@ -3,6 +3,8 @@ jQuery(document).ready( function($){
 	$('#report-submit').click( function(e){
 		e.preventDefault();
 
+		alert($('input[type="radio"][name="frequency"]:checked').val()); return;
+
 		//Disable button to prevent double
 		$(this).fadeTo(250, 0.2);
 		$(this).attr('disabled', 'disabled');
@@ -45,16 +47,29 @@ jQuery(document).ready( function($){
 		}
 
 		//Check if files are valid
-		var files = inferFormSanitizeFiles();
-		if ( ! files.length > 0) {
-			inferFormSendError( $('#plupload-upload-ui'), messages.errorUploadedFile );
-			return;
-		}
+		inferFormSanitizeFiles( function( files ) {
 
-		inferFormComplianceFiles( files );
-		
-		$('#report-submit').fadeTo(250, 1);
-		$('#report-submit').attr('disabled', false);
+			if ( ! files.length > 0) {
+				inferFormSendError( $('#plupload-upload-ui'), messages.errorUploadedFile );
+				return;
+			}
+
+			inferFormComplianceFiles( files, function( files ){
+
+				if ( ! files.length > 0) {
+					inferFormSendError( $('#plupload-upload-ui'), messages.errorUploadedFileInvalid );
+					return;
+				}
+				
+				inferFormRegisterTest( files, name, email, $('input[type="radio"][name="frequency"]:checked').val(), function(){
+
+					location.reload();
+
+				});
+
+			});
+		});
+
 
 	});
 
@@ -72,7 +87,7 @@ jQuery(document).ready( function($){
 
 
 	//Verify all uploaded files to check if it's csv
-	function inferFormSanitizeFiles() {
+	function inferFormSanitizeFiles( callback ) {
 
 		var files = [],
 			regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)");
@@ -106,29 +121,59 @@ jQuery(document).ready( function($){
 		};
 		$.post(messages.ajax_url, data, function(response) {
 			files = $.parseJSON( response );
-		});
+			
+			//Return valid files
+			callback( files);
 
-		//Return valid files
-		return files;
+		});
+	
     
 	}
 
 
 	//Verify valid files for CSV compliance
-	function inferFormComplianceFiles( files ) {
+	function inferFormComplianceFiles( files, callback ) {
+
+		//Check csv file have expected standard
+		var newfiles = [],
+			data = {
+				'action': 'infer_form_compliance_files',
+				'files': files
+			};
+
+		$.post(messages.ajax_url, data, function(response) {
+			newfiles = $.parseJSON( response );
+
+			//Return valid files
+			callback( newfiles );
+
+		});
+
+	}
+
+
+	//Register the test as everything is ok
+	function inferFormRegisterTest( files, name, email, frequency, callback ) {
 
 		//Check csv file have expected standard
 		var data = {
-			'action': 'infer_form_compliance_files',
-			'files': files
-		};
+				'action': 'infer_form_register_test',
+				'files': files,
+				'name': name,
+				'email': email,
+				'frequency': frequency
+			};
+
 		$.post(messages.ajax_url, data, function(response) {
-			files = $.parseJSON( response );
+
+			if (response == 1) {
+				callback( true );
+			} else {
+				callback( false );
+			}
+
 		});
 
-		//Return valid files
-		return files;
-    
 	}
 
 });

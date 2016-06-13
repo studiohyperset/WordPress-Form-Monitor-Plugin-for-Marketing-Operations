@@ -65,6 +65,7 @@
   background: url(../img/icon-csv.png) no-repeat top center;
   margin: 0;
   padding: 0;
+  background-size: 100% 100%;
 }
 .toplevel_page_form_monitor .wrap #plupload-upload-ui #drag-drop-area .drag-drop-inside p {
   display: none;

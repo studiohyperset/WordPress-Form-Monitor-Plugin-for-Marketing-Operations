@@ -44,26 +44,35 @@ function infer_form_menu_admin_registered_tests() {
 
 	<table class="registered">
 		<?php
-		$registered = get_option( 'infer_form_monitor_registered', array() );
-		if ( count($registered) > 0 ) {
-			foreach ($registered as $key => $value) {
-				?>
-				<tr>
-					<td>
-						<a href="<?php echo wp_get_attachment_url( $value['file'] ); ?>"><?php echo get_the_title( $value['file'] ); ?></a>
-					</td>
-					<td>
-						<?php echo $value['frequency']; ?>
-					</td>
-					<td>
-						<a href="#" data-id="<?php echo $key; ?>" title="<?php _e("Delete test", INFERFORMNAME); ?>" class="delete">
-							<span class="dashicons dashicons-no"></span>
-						</a>
-					</td>
-				</tr>
-				<?php
+		$count = 0;
+		$cron = _get_cron_array();
+		$schedules = wp_get_schedules();
+		foreach ( $cron as $timestamp => $cronhooks ) {
+			foreach ($cronhooks as $hook => $events) {
+				if ($hook == 'infer_form_cron_execute') {
+					$count++;
+					foreach ($events as $event ) {
+						?>
+						<tr>
+							<td>
+								Report X
+							</td>
+							<td>
+								<?php echo $schedules[$event['schedule']]['display']; ?>
+							</td>
+							<td>
+								<a href="#" data-id="<?php echo $event['args'][0]; ?>" title="<?php _e("Delete test", INFERFORMNAME); ?>" class="delete">
+									<span class="dashicons dashicons-no"></span>
+								</a>
+							</td>
+						</tr>
+						<?php
+					}
+				}
 			}
-		} else {
+		}
+
+		if ( $count == 0 ) {
 			?>
 			<tr>
 				<td><?php _e("No tests registered", INFERFORMNAME); ?></td>

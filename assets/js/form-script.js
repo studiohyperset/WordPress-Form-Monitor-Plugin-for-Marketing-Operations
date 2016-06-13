@@ -3,8 +3,6 @@ jQuery(document).ready( function($){
 	$('#report-submit').click( function(e){
 		e.preventDefault();
 
-		alert($('input[type="radio"][name="frequency"]:checked').val()); return;
-
 		//Disable button to prevent double
 		$(this).fadeTo(250, 0.2);
 		$(this).attr('disabled', 'disabled');
@@ -61,9 +59,12 @@ jQuery(document).ready( function($){
 					return;
 				}
 				
-				inferFormRegisterTest( files, name, email, $('input[type="radio"][name="frequency"]:checked').val(), function(){
+				inferFormRegisterTest( files, name, email, $('input[type="radio"][name="frequency"]:checked').val(), function( valid ){
 
-					location.reload();
+					if (valid === true) {
+						alert('oi');
+						location.reload();
+					}
 
 				});
 
@@ -166,14 +167,51 @@ jQuery(document).ready( function($){
 
 		$.post(messages.ajax_url, data, function(response) {
 
-			if (response == 1) {
+			if (response == '100') {
 				callback( true );
 			} else {
+
+				if (response == '0') {
+					inferFormSendError( $('#report-email'), messages.errorInvalidEmail );
+				} else if (response == '1') {
+					inferFormSendError( $('#report-name'), messages.errorNoName )
+				} else if (response == '2') {
+					inferFormSendError( $('#frequency-0'), messages.errorInvalidFrequency )
+				} else if (response == '3') {
+					inferFormSendError( $('#plupload-upload-ui'), messages.errorUploadedFileInvalid );
+				}
+
 				callback( false );
 			}
 
 		});
 
 	}
+
+	$('table.registered a.delete').click( function(e){
+		e.preventDefault();
+
+		var link = $(this);
+
+		$('table.registered').fadeTo(300, 0.2, function() {
+
+			//Check csv file have expected standard
+			var data = {
+					'action': 'infer_form_delete_test',
+					'test': link.attr('data-id')
+				};
+
+			$.post(messages.ajax_url, data, function(response) {
+
+				link.parent('td').parent('tr').slideUp(500);
+				link.parent('td').parent('tr').remove();
+				$('table.registered').fadeTo(300, 1);
+
+			});
+
+		});
+
+
+	});
 
 });

@@ -1,3 +1,3 @@
-form url;name of field 1;name of field 2;name of field x;test value for field 1;test value for field 2;test value for field x
-https://go.pardot.com/l/27632/2015-07-24/5mwppf;27632_170478pi_27632_170478;27632_170480pi_27632_170480;27632_170494pi_27632_170494;27632_170486pi_27632_170486;Test Value;Test Value;Test Value;test@test.com
-http://go.infer.com/l/27632/2016-04-19/84grwy;Business Email;First Name;Last Name;Company Name;test@test.com;Test Value;Test Value;Test value
+form url,name of field 1,name of field 2,name of field x,test value for field 1,test value for field 2,test value for field x
+https://go.pardot.com/l/27632/2015-07-24/5mwppf,27632_170478pi_27632_170478,27632_170480pi_27632_170480,27632_170494pi_27632_170494,27632_170486pi_27632_170486,Test Value,Test Value,Test Value,test@test.com
+http://go.infer.com/l/27632/2016-04-19/84grwy,Business Email,First Name,Last Name,Company Name,test@test.com,Test Value,Test Value,Test value

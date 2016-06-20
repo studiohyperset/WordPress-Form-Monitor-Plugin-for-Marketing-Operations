@@ -45,7 +45,7 @@ function infer_form_compliance_files() {
 		if (($header = fgetcsv($handle, 0, ',') ) !== FALSE) {
 
 			//Check if sample header is present, if so ignore line
-			if (array_search('form url', $header) !== FALSE) {
+			if (array_search('Form Page URL', $header) !== FALSE) {
 				$header = fgetcsv($handle, 0, ',');
 			}
 
@@ -98,25 +98,31 @@ function infer_form_register_test() {
 
 		//Read CSV Header
 		while (($row = fgetcsv($handle, 0, ',')) !== FALSE) {
-			//Check if first value is URL
-			if (filter_var( $row[0], FILTER_VALIDATE_URL) !== false) {
-				
-				//Save URL
-				$url = $row[0];
-				$total = count($row);
+			//Save URLs
+			$formurl = $row[0];
+			$targeturl = $row[1];
 
+			//Check if are relative URLs
+			if (strpos($formurl, '//') === 0 ) $formurl = 'http:' . $formurl;
+			if (strpos($targeturl, '//') === 0 ) $targeturl = 'http:' . $targeturl;
+
+			//Check if first and second value are URL
+			if ( (filter_var( $formurl, FILTER_VALIDATE_URL) !== false) && (filter_var( $targeturl, FILTER_VALIDATE_URL) !== false) ) {
+				
+				$total = count($row);
 				$fields = array();
 				$values = array();
 
 				//If row have fields and values set
-				if ( ($total > 2) && ($total % 2 != 0) ) {
-					$breakpoint = ($total-1)/2;
-					$fields = array_slice( $row, 1, $breakpoint );
-					$values = array_slice( $row, 1 + $breakpoint );
+				if ( ($total > 3) && ($total % 2 == 0) ) {
+					$breakpoint = ($total-2)/2;
+					$fields = array_slice( $row, 2, $breakpoint );
+					$values = array_slice( $row, 2 + $breakpoint );
 				}
 
 				$test[] = array(
-					'url' => $url,
+					'formurl' => $formurl,
+					'targeturl' => $targeturl,
 					'fields' => $fields,
 					'values' => $values
 				);
@@ -151,6 +157,22 @@ function infer_form_delete_test() {
 	if ($test !== false) {
 		delete_option( $test );
 		wp_clear_scheduled_hook( 'infer_form_cron_execute', array( $test ) );
+	}
+
+	wp_die();
+
+}
+
+
+/*
+ * Run the test
+ */
+add_action( 'wp_ajax_infer_form_run_test', 'infer_form_run_test' );
+function infer_form_run_test() {
+
+	$test = (isset($_POST['test'])) ? $_POST['test'] : false ;
+	if ($test !== false) {
+		infer_form_cron_do_execute( array( $test ) );
 	}
 
 	wp_die();

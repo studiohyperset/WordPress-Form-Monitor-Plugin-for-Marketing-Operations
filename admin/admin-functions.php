@@ -16,7 +16,14 @@ function infer_form_menu_admin_log_tests() {
 				?>
 				<tr>
 					<td>
-						<?php echo date('M d, Y', $value['date']); ?>
+						<a href="#"><?php echo date('M d, Y', $value['date']); ?></a>
+					</td>
+					<td class="result">
+						<?php
+						foreach ($value['result'] as $key => $value) {
+							echo '<span class="'. $value['result'] .'"></span>';
+						}
+						?>
 					</td>
 				</tr>
 				<?php
@@ -52,16 +59,20 @@ function infer_form_menu_admin_registered_tests() {
 				if ($hook == 'infer_form_cron_execute') {
 					$count++;
 					foreach ($events as $event ) {
+						$name = $event['args'][0];
 						?>
 						<tr>
 							<td>
-								Report X
+								Report <?php echo str_replace('infer_form_schedule_', '', $name); ?>
 							</td>
 							<td>
 								<?php echo $schedules[$event['schedule']]['display']; ?>
 							</td>
 							<td>
-								<a href="#" data-id="<?php echo $event['args'][0]; ?>" title="<?php _e("Delete test", INFERFORMNAME); ?>" class="delete">
+								<a href="#" data-id="<?php echo $name; ?>" title="<?php _e("Run test", INFERFORMNAME); ?>" class="run">
+									<span class="dashicons dashicons-controls-play"></span>
+								</a>
+								<a href="#" data-id="<?php echo $name; ?>" title="<?php _e("Delete test", INFERFORMNAME); ?>" class="delete">
 									<span class="dashicons dashicons-no"></span>
 								</a>
 							</td>

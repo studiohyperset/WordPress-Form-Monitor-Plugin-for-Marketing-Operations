@@ -51,7 +51,6 @@ function form_monitor_plugin_page(  ) {
 	<div class="wrap">
 		
 		<div class="infer-banner">
-			<img src="<?php echo INFERFORMURL; ?>/assets/img/logo-infer.png" alt="Infer" />
 		</div>
 		
 		<h2><?php _e("Predictive Lead Scoring & Analytics for Sales & Marketing", INFERFORMNAME); ?></h2>

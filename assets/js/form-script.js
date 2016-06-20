@@ -62,7 +62,6 @@ jQuery(document).ready( function($){
 				inferFormRegisterTest( files, name, email, $('input[type="radio"][name="frequency"]:checked').val(), function( valid ){
 
 					if (valid === true) {
-						alert('oi');
 						location.reload();
 					}
 
@@ -206,6 +205,31 @@ jQuery(document).ready( function($){
 				link.parent('td').parent('tr').slideUp(500);
 				link.parent('td').parent('tr').remove();
 				$('table.registered').fadeTo(300, 1);
+
+			});
+
+		});
+
+
+	});
+
+	$('table.registered a.run').click( function(e){
+		e.preventDefault();
+
+		var link = $(this);
+
+		$('table.registered').fadeTo(300, 0.2, function() {
+
+			//Check csv file have expected standard
+			var data = {
+					'action': 'infer_form_run_test',
+					'test': link.attr('data-id')
+				};
+
+			$.post(messages.ajax_url, data, function(response) {
+
+				alert('Executed');
+				location.reload();
 
 			});
 

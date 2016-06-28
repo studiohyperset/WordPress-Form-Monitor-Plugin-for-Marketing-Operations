@@ -53,9 +53,9 @@ function form_monitor_plugin_page(  ) {
 		<div class="infer-banner">
 		</div>
 		
-		<h2><?php _e("Predictive Lead Scoring & Analytics for Sales & Marketing", INFERFORMNAME); ?></h2>
+		<h2><?php _e("Automated Form Monitor for Marketing Operations", INFERFORMNAME); ?></h2>
 
-		<p><?php _e("Infer's form tester plugin can help you monitor the forms on your site and ensure they're operating properly. To begin testing the form on your site, please upload a list of pages that contain forms.", INFERFORMNAME); ?> This <a href="<?php echo INFERFORMURL; ?>/assets/sample-csv.csv">CSV Template</a> should help you get started.</p>
+		<p><?php _e("Infer's automated form monitor plugin can help marketing teams monitor site forms and ensure they're operating properly. To begin testing the forms on your site, please upload a list of pages that contain forms.", INFERFORMNAME); ?> This <a href="<?php echo INFERFORMURL; ?>/assets/sample-csv.csv">CSV Template</a> should help you get started.</p>
 
 		<div class="row">
 

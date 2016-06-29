@@ -51,11 +51,12 @@ function form_monitor_plugin_page(  ) {
 	<div class="wrap">
 		
 		<div class="infer-banner">
+			<a href="https://www.infer.com/" target="_blank"></a>
 		</div>
 		
 		<h2><?php _e("Automated Form Monitor for Marketing Operations", INFERFORMNAME); ?></h2>
 
-		<p><?php _e("Infer's automated form monitor plugin can help marketing teams monitor site forms and ensure they're operating properly. To begin testing the forms on your site, please upload a list of pages that contain forms.", INFERFORMNAME); ?> This <a href="<?php echo INFERFORMURL; ?>/assets/sample-csv.csv">CSV Template</a> should help you get started.</p>
+		<p><?php echo sprintf( __("%s automated form monitor plugin can help marketing teams monitor site forms and ensure they're operating properly. To begin testing the forms on your site, please upload a list of pages that contain forms. This %s should help you get started.", INFERFORMNAME), '<a href="https://www.infer.com/" target="_blank">'. __("Infer's", INFERFORMNAME) . '</a>', '<a href="'. INFERFORMURL .'/assets/sample-csv.csv">'. __('CSV Template', INFERFORMNAME) .'</a>'); ?></p>
 
 		<div class="row">
 
@@ -80,6 +81,41 @@ function form_monitor_plugin_page(  ) {
 			</div>
 
 			<div class="second-column">
+
+				<div class="postbox about">
+					<h2><?php _e("About Infer", THEMENAME); ?></h2>
+					<div class="inside">
+						<p><?php echo sprintf(__("Infer is a predictive sales and marketing platform. We help B2B companies transform their data into actionable intelligence to guide you what to do next. Learn more at %s", THEMENAME), '<a href="https://www.infer.com/" target="_blank">infer.com</a>' ); ?></p>
+
+						<p><strong><?php _e("Latest Blog Post", THEMENAME); ?></strong></p>
+						<ul>
+							<?php
+							require_once(ABSPATH . 'wp-includes/rss.php');
+							$feed = fetch_rss('http://feeds.feedburner.com/InferBlog');
+							if (count($feed->items) > 0) {
+								$i = 0;
+								foreach ($feed->items as $key => $value) {
+									?><li><a href="<?php echo $value['link']; ?>" target="_blank"><?php echo $value['title']; ?></a></li><?php
+									$i++;
+									if ($i >= 3) {
+										break;
+									}
+								}
+							} else {
+								?><li><?php _e('Could not access our blog feed', THEMENAME); ?></li><?php
+							}
+							?>
+						</ul>
+
+						<p><strong><?php _e("Learn More", THEMENAME); ?></strong></p>
+						<ul>
+							<li><a href="https://www.infer.com/guide-to-predictive-lead-scoring/" target="_blank"><?php _e("Guide to Predictive Lead Scoring", THEMENAME); ?></a></li>
+							<li><a href="https://www.infer.com/webinar/predictive-analytics-and-content-marketing/" target="_blank"><?php _e("B2B Predictive Analytics & Content Marketing", THEMENAME); ?></a></li>
+							<li><a href="https://www.infer.com/webinar/predictive-analytics-and-content-marketing/" target="_blank"><?php _e("B2B Predictive Marketing Industry Report", THEMENAME); ?></a></li>
+						</ul>
+					</div>
+				</div>
+
 				<div class="postbox ">
 					<h2><?php _e("I want to test my forms", THEMENAME); ?></h2>
 					<div class="inside">

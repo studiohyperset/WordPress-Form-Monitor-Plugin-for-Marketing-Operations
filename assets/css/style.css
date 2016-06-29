@@ -11,6 +11,13 @@
   width: 100%;
   padding: 0 0 0 20px;
 }
+.toplevel_page_form_monitor .wrap .infer-banner a {
+  text-decoration: none;
+  transition: opacity 1s;
+}
+.toplevel_page_form_monitor .wrap .infer-banner a:hover {
+  opacity: 0.5;
+}
 .toplevel_page_form_monitor .wrap h2 {
   font-family: "Open Sans";
   font-size: 24px;
@@ -128,6 +135,16 @@
   font-weight: 600;
   cursor: pointer;
 }
+.toplevel_page_form_monitor .wrap .postbox.about p strong {
+  color: #215d73;
+}
+.toplevel_page_form_monitor .wrap .postbox.about ul li {
+  color: #215d73;
+  list-style: disc inside;
+}
+.toplevel_page_form_monitor .wrap .postbox.about ul li a {
+  text-decoration: none;
+}
 .toplevel_page_form_monitor .wrap table {
   border: 2px solid #e6e6e6;
   background-color: #fff;
@@ -195,4 +212,8 @@
 }
 .toplevel_page_form_monitor .wrap a {
   color: #4d99b5;
+  transition: color 0.5s;
+}
+.toplevel_page_form_monitor .wrap a:hover {
+  color: #215d73;
 }

@@ -12,6 +12,15 @@
 			left: -20px;
 			width: 100%;
 			padding: 0 0 0 20px;
+
+			a {
+				text-decoration: none;
+				transition: opacity 1s;
+
+				&:hover {
+					opacity: 0.5;
+				}
+			}
 		}
 
 		h2 {
@@ -153,6 +162,25 @@
 				font-weight: 600;
 				cursor: pointer;
 			}
+
+			&.about {
+				p {
+					strong {
+						color: #215d73;
+					}
+				}
+
+				ul {
+					li {
+						color: #215d73;
+						list-style: disc inside;
+
+						a {
+							text-decoration: none;
+						}
+					}
+				}
+			}
 		}
 
 		table {
@@ -227,6 +255,11 @@
 
 		a {
 			color: #4d99b5;
+			transition: color 0.5s;
+
+			&:hover {
+				color: #215d73;
+			}
 		}
 
 

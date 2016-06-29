@@ -13,14 +13,14 @@ function infer_form_admin_style() {
 
 		$translation_array = array(
 			'ajax_url' => admin_url( 'admin-ajax.php' ),
-			'errorNoName' => __( 'Please insert your name.', INFERFORMNAME ),
-			'errorNoEmail' => __( 'Please insert your email.', INFERFORMNAME ),
-			'errorInvalidEmail' => __( 'Please insert a valid email.', INFERFORMNAME ),
-			'errorNoFile' => __( 'You must send at least one CSV file.', INFERFORMNAME ),
-			'errorUploadingFile' => __( 'Your file is being uploaded, please wait and try again.', INFERFORMNAME ),
+			'errorNoName' => __( 'Please type your first and last name.', INFERFORMNAME ),
+			'errorNoEmail' => __( 'Please add your email address.', INFERFORMNAME ),
+			'errorInvalidEmail' => __( 'Please insert a valid email address.', INFERFORMNAME ),
+			'errorNoFile' => __( 'You must upload at least one CSV file.', INFERFORMNAME ),
+			'errorUploadingFile' => __( 'Your file is being uploaded. Please wait and try again.', INFERFORMNAME ),
 			'errorUploadedFile' => __( 'The uploaded file does not seems to be a CSV file.', INFERFORMNAME ),
-			'errorUploadedFileInvalid' => __( 'You must upload a valid CSV file. Please refer to the CSV Template.', INFERFORMNAME ),
-			'errorInvalidFrequency' => __( 'Please select a frequency.', INFERFORMNAME ),
+			'errorUploadedFileInvalid' => __( 'You must upload a valid CSV file. Please refer to the CSV template above.', INFERFORMNAME ),
+			'errorInvalidFrequency' => __( 'Please select a test frequency.', INFERFORMNAME ),
 		);
 		wp_localize_script( 'infer-admin-script', 'messages', $translation_array );
 
@@ -56,11 +56,13 @@ function form_monitor_plugin_page(  ) {
 		
 		<h2><?php _e("Automated Form Monitor for Marketing Operations", INFERFORMNAME); ?></h2>
 
-		<p><?php echo sprintf( __("%s automated form monitor plugin can help marketing teams monitor site forms and ensure they're operating properly. To begin testing the forms on your site, please upload a list of pages that contain forms. This %s should help you get started.", INFERFORMNAME), '<a href="https://www.infer.com/" target="_blank">'. __("Infer's", INFERFORMNAME) . '</a>', '<a href="'. INFERFORMURL .'/assets/sample-csv.csv">'. __('CSV Template', INFERFORMNAME) .'</a>'); ?></p>
+		<p><?php echo sprintf( __("%s automated form monitor plugin can help marketing teams monitor site forms and ensure they're operating properly. To begin testing the forms on your site, please upload a list of pages that contain forms. This %s should help you get started. If you have any other questions, this %s should help. You can also post a question in the %s.", INFERFORMNAME), '<a href="https://www.infer.com/" target="_blank">'. __("Infer's", INFERFORMNAME) . '</a>', '<a href="'. INFERFORMURL .'/assets/sample-csv.csv">'. __('CSV template', INFERFORMNAME) .'</a>','<a href="https://www.infer.com/automated-form-monitor-plugin-for-marketing-operations/" target="_blank">'. __('blog post', INFERFORMNAME) .'</a>','<a href="https://wordpress.org/support/plugin/infer-automated-form-monitor-for-marketing-operations/" target="_blank">'. __('plugin support forum', INFERFORMNAME) .'</a>'); ?></p>
 
 		<div class="row">
 
 			<div class="first-column">
+            
+            
 				
 				<form enctype="multipart/form-data" method="post" action="<?php echo admin_url('media-new.php'); ?>" class="<?php echo esc_attr( $form_class ); ?>" id="file-form">
 
@@ -73,6 +75,22 @@ function form_monitor_plugin_page(  ) {
 					<?php wp_nonce_field('media-form'); ?>
 					<div id="media-items" class="hide-if-no-js"></div>
 				</form>
+                
+                <div class="postbox ">
+					<h2><?php _e("I want to test my forms", THEMENAME); ?></h2>
+					<div class="inside">
+						<fieldset>
+							<input type="radio" name="frequency" value="0" id="frequency-0" checked="checked"> <label for="frequency-0"><?php _e("Daily", THEMENAME); ?></label>
+							<br><input type="radio" name="frequency" value="1" id="frequency-1"> <label for="frequency-1"><?php _e("Weekly", THEMENAME); ?></label>
+							<br><input type="radio" name="frequency" value="2" id="frequency-2"> <label for="frequency-2"><?php _e("Monthly", THEMENAME); ?></label>
+						</fieldset>
+						<p><?php _e("Please email my report here:", THEMENAME); ?></p>
+						<input type="text" id="report-name" placeholder="<?php _e("Full name", THEMENAME); ?>" />
+						<input type="text" id="report-email" placeholder="E-mail" />
+						<button id="report-submit"><?php _e("Submit", THEMENAME); ?></button>
+						<p class="error-message"></p>
+					</div>
+				</div>
 
 				<?php infer_form_menu_admin_log_tests(); ?>
 
@@ -116,21 +134,7 @@ function form_monitor_plugin_page(  ) {
 					</div>
 				</div>
 
-				<div class="postbox ">
-					<h2><?php _e("I want to test my forms", THEMENAME); ?></h2>
-					<div class="inside">
-						<fieldset>
-							<input type="radio" name="frequency" value="0" id="frequency-0" checked="checked"> <label for="frequency-0"><?php _e("Daily", THEMENAME); ?></label>
-							<br><input type="radio" name="frequency" value="1" id="frequency-1"> <label for="frequency-1"><?php _e("Weekly", THEMENAME); ?></label>
-							<br><input type="radio" name="frequency" value="2" id="frequency-2"> <label for="frequency-2"><?php _e("Monthly", THEMENAME); ?></label>
-						</fieldset>
-						<p><?php _e("Please email my report here:", THEMENAME); ?></p>
-						<input type="text" id="report-name" placeholder="<?php _e("Full name", THEMENAME); ?>" />
-						<input type="text" id="report-email" placeholder="E-mail" />
-						<button id="report-submit"><?php _e("Submit", THEMENAME); ?></button>
-						<p class="error-message"></p>
-					</div>
-				</div>
+				
 			</div>
 
 		</div>

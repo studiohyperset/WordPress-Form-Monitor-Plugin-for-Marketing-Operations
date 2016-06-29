@@ -6,7 +6,7 @@
 function infer_form_menu_admin_log_tests() {
 ?>
 
-	<h2><?php _e("Latest reports", INFERFORMNAME); ?> <a href="#"><?php _e("Download reports", INFERFORMNAME); ?></a></h2>
+	<h2><?php _e("Most Recent Reports", INFERFORMNAME); ?> <a href="#"><?php // _e("Download reports", INFERFORMNAME); ?></a></h2>
 
 	<table>
 		<?php
@@ -37,7 +37,7 @@ function infer_form_menu_admin_log_tests() {
 		}
 		?>
 	</table>
-	<p><?php _e("To maintain a complete log of reports, please submit your email adress.", INFERFORMNAME); ?></p>
+	<p><?php _e("Infer's automated form monitor plugin keeps a record of your site's three latest tests. To maintain a complete log of reports, please ensure you're using a valid, up-to-date email address.", INFERFORMNAME); ?></p>
 
 <?php
 }
@@ -47,7 +47,7 @@ function infer_form_menu_admin_log_tests() {
 function infer_form_menu_admin_registered_tests() {
 ?>
 
-	<h2><?php _e("Registered tests", INFERFORMNAME); ?></h2>
+	<h2><?php _e("Active Tests", INFERFORMNAME); ?></h2>
 
 	<table class="registered">
 		<?php
@@ -63,7 +63,7 @@ function infer_form_menu_admin_registered_tests() {
 						?>
 						<tr>
 							<td>
-								Report <?php echo str_replace('infer_form_schedule_', '', $name); ?>
+								Test <?php echo str_replace('infer_form_schedule_', '', $name); ?>
 							</td>
 							<td>
 								<?php echo $schedules[$event['schedule']]['display']; ?>
@@ -86,7 +86,7 @@ function infer_form_menu_admin_registered_tests() {
 		if ( $count == 0 ) {
 			?>
 			<tr>
-				<td><?php _e("No tests registered", INFERFORMNAME); ?></td>
+				<td><?php _e("No active tests.", INFERFORMNAME); ?></td>
 			</tr>
 			<?php
 		}

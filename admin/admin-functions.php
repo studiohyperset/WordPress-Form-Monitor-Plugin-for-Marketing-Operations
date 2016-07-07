@@ -11,12 +11,13 @@ function infer_form_menu_admin_log_tests() {
 	<table>
 		<?php
 		$logged = get_option( 'infer_form_monitor_log', array() );
+		
 		if ( count($logged) > 0 ) {
 			foreach ($logged as $key => $value) {
 				?>
 				<tr>
 					<td>
-						<a href="#"><?php echo date('M d, Y', $value['date']); ?></a>
+						<a href="<?php echo admin_url(); ?>admin.php?page=form_monitor&generate=pdf&report=<?php echo $key; ?>"><?php echo date('M d, Y', $value['date']); ?></a>
 					</td>
 					<td class="result">
 						<?php

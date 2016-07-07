@@ -143,3 +143,18 @@ function form_monitor_plugin_page(  ) {
 	<?php
 
 }
+
+
+add_action( 'admin_init', 'infer_form_generate_pdf' );
+function infer_form_generate_pdf() {
+	if (isset($_GET['page']) && $_GET['page']=='form_monitor') {
+		if (isset($_GET['generate']) && $_GET['generate']=='pdf') {
+			if (isset($_GET['report']) ) {
+				include_once('report-export.php');
+				die();
+			}
+		}
+	}
+
+	return;
+}

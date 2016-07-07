@@ -21,10 +21,6 @@ if (isset($_GET['test']) && $_GET['test']=='do_test') {
 //A list of domains blacklisted on our script
 $blacklist = array();
 
-//Check if referer is blacklisted
-if ( in_array($_SERVER['HTTP_REFERER'], $blacklist) )
-	die("0");
-
 //First a simple key check
 if (!isset($_POST['secret']))
 	die("0");
@@ -33,6 +29,10 @@ if ($_POST['secret'] != 'infer-pardot-secret')
 
 //Secondly lets ensure the domain is sent
 if (!isset($_POST['domain']))
+	die("0");
+
+//Check if referer is blacklisted
+if ( in_array($_POST['domain'], $blacklist) )
 	die("0");
 
 //Action will handle the correct function
@@ -44,6 +44,7 @@ if ($_POST['action'] == 'secret') {
 
 	//Return the hash to be sent in deeper call
 	echo our_hash_creator();
+	die();
 
 } elseif ($_POST['action'] == 'pardot') {
 
@@ -56,8 +57,14 @@ if ($_POST['action'] == 'secret') {
 	if ($hash != $_POST['key'])
 		die("0");
 
-	//Everything ok. Let's send emails!
-	our_api_handler();
+	if ( ( isset($_POST['email']) && isset($_POST['title']) && isset($_POST['result']) && isset($_POST['url'])  && isset($_POST['date']) ) ) {
+
+		//Everything ok. Let's send emails!
+		our_api_handler( $_POST['email'], $_POST['title'], json_decode($_POST['result']), $_POST['url'], $_POST['date'] );
+
+	} else {
+		die("0");
+	}
 
 } else {
 	die("0");
@@ -66,15 +73,15 @@ if ($_POST['action'] == 'secret') {
 function our_hash_creator() {
 
 	//Let's create a secret random passphrase
-	$hash = 'pardot' . $_POST['domain'] . 'infer' . $_SERVER['HTTP_REFERER'];
+	$hash = 'pardot' . $_POST['domain'] . 'infer';
 
 	//Return the hash to be sent in deeper call
-	return password_hash($hash, PASSWORD_BCRYPT);
+	return crypt($hash, 'infer-secret-salt');
 
 }
 
 
-function our_api_handler( $to, $title, $result ) {
+function our_api_handler( $to, $title, $result, $link ) {
 
 	//Mounting the URL and Data for retrieving API
 	$url = 'https://pi.pardot.com/api/login/version/3';
@@ -114,12 +121,22 @@ function our_api_handler( $to, $title, $result ) {
 	//Let's mount the table result
 	$report = '';
 	foreach ($result as $value) {
-		$report .= '<tr align="left" style="border: 0; border-collapse: collapse; border-spacing: 0"><td><table cellspacing="0" cellpadding="0" border="0" style="border: 0; border-collapse: collapse; border-spacing: 0; margin-top: 0px !important; min-width: 520px; padding-top: 0px !important"><tbody><tr style="border: 0; border-collapse: collapse; border-spacing: 0"><td width="405" align="left" valign="middle" height="67" class=""><p style="color: #000000 !important; font-family: Arial; font-size: 16px; font-style: normal; line-height: 24px; margin: 0; padding: 0 0 0 22px; text-shadow: none">'. $value['url'] .'</p></td><td width="115" align="center" valign="middle" height="67" class=""><span style="background: '. $value['status'] .'; border-radius: 100%; display: inline-block; height: 16px; width: 16px"></span></td></tr></tbody></table></td></tr>';
+
+		if ($value->result == 'form_online')
+			$color = '#81c784';
+		else if ($value->result == 'form_offline')
+			$color = '#f8e05d';
+		else if ($value->result == 'form_not_present')
+			$color = '#ff7043';
+		else if ($value->result == 'url_offline')
+			$color = '#bb502e';
+
+		$report .= '<tr align="left" style="border: 0; border-collapse: collapse; border-spacing: 0"><td><table cellspacing="0" cellpadding="0" border="0" style="border: 0; border-collapse: collapse; border-spacing: 0; margin-top: 0px !important; min-width: 520px; padding-top: 0px !important"><tbody><tr style="border: 0; border-collapse: collapse; border-spacing: 0"><td width="405" align="left" valign="middle" height="67" class=""><p style="color: #000000 !important; font-family: Arial; font-size: 16px; font-style: normal; line-height: 24px; margin: 0; padding: 0 0 0 22px; text-shadow: none">'. $value->url .'</p></td><td width="115" align="center" valign="middle" height="67" class=""><span style="background: '. $color .'; border-radius: 100%; display: inline-block; height: 16px; width: 16px"></span></td></tr></tbody></table></td></tr>';
 	}
 
 	//Let's replace the variables
 	$find = array( '###REPORT-TITLE###', '###REPORT-DATE###', '###REPORT-ENTRY-URL###', '###REPORT-LINK###' );
-	$replace = array( $title, date('l jS \of F Y'), $report, '###REPORT-LINK###' );
+	$replace = array( $title, date('l jS \of F Y'), $report, $link );
 	$content = str_replace($find, $replace, $content);
 
 	//Let's prep the data for sending email

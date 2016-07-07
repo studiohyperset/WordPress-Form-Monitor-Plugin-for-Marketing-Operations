@@ -11,7 +11,7 @@ Version: 0.1
 
 define(INFERFORMPATH, plugin_dir_path( __FILE__ ));
 define(INFERFORMURL, plugins_url( '', __FILE__ ));
-define(INFERFORMNAME, 'infer-form-monitor');
+define(INFERFORMNAME, 'infer-automated-form-monitor-for-marketing-operations');
 
 
 require_once( INFERFORMPATH . '/admin/menu.php');

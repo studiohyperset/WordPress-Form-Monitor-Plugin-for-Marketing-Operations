@@ -144,7 +144,16 @@ function infer_form_cron_do_execute( $args ) {
 			'result' => $result,
 			'link' => '#'
 		);
+		if (count($logged)>3) {
+			reset($logged);
+			$key = key($logged);
+			unset($logged[$key]);
+		}
 		update_option( 'infer_form_monitor_log', $logged );
+
+		end($logged);
+		$key = key($logged);
+		infer_form_send_report_pardot($key, $result, $email, date('U'));
 
 	} else {
 

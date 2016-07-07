@@ -520,35 +520,43 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/artref_agenda.php",
+			"file": "admin/menu.php",
 			"settings":
 			{
-				"buffer_size": 3772,
+				"buffer_size": 5913,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/bothsidebar.php",
-			"settings":
-			{
-				"buffer_size": 18114,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/functions.php",
-			"settings":
-			{
-				"buffer_size": 4151,
-				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 4073,
+				"buffer_size": 4458,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "admin/admin-cron.php",
+			"settings":
+			{
+				"buffer_size": 3491,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/css/dashicon.css",
+			"settings":
+			{
+				"buffer_size": 1446,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/css/style.css",
+			"settings":
+			{
+				"buffer_size": 5684,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -812,17 +820,18 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/bothsidebar.php",
+		"/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/functions.php",
+		"/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/artref_agenda.php",
 		"/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/introtop.php",
 		"/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/single.php",
 		"/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/style.css",
 		"/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/template-authors.php",
 		"/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/simple-pdf-exporter.php",
 		"/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/exporter.php",
-		"/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/bothsidebar.php",
 		"/C/Projetos/UwAmp/www/form/wp-content/plugins/infer-form-monitor/admin/admin-cron.php",
 		"/C/Projetos/UwAmp/www/form/wp-content/plugins/infer-form-monitor/admin/admin-ajax.php",
 		"/C/Projetos/UwAmp/www/form/wp-content/plugins/infer-form-monitor/admin/admin-functions.php",
-		"/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/functions.php",
 		"/C/Projetos/UwAmp/www/form/wp-content/plugins/infer-form-monitor/admin/menu.php",
 		"/C/Projetos/UwAmp/www/form/wp-content/plugins/infer-form-monitor/assets/js/form-script.js",
 		"/C/Projetos/UwAmp/www/form/wp-content/plugins/infer-form-monitor/assets/sample-csv.csv",
@@ -914,7 +923,6 @@
 		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/fit/slides.php",
 		"/C/Projetos/UwAmp/www/plangrid-staging/.gitignore",
 		"/C/Users/Bruno/AppData/Roaming/Skype/My Skype Received Files/curl.php",
-		"/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/artref_agenda.php",
 		"/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/index.html",
 		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/common-slide-button.php",
 		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/prospect/splash.php",
@@ -969,6 +977,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"215d73",
+			"postbox",
+			"infer-banner",
 			"pdf",
 			"create_pdf_layout",
 			"dashicon",
@@ -1093,10 +1104,7 @@
 			"515A42C88E55DD0C7.css ",
 			"inferga.js",
 			"ga",
-			"inferga.js",
-			"515A42C88E55DD0C7",
-			"href",
-			"jshint"
+			"inferga.js"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1233,24 +1241,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/artref_agenda.php",
+					"file": "admin/menu.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3772,
+						"buffer_size": 5913,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1068,
-								1068
+								4910,
+								4910
 							]
 						],
 						"settings":
@@ -1262,96 +1270,33 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1176.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/bothsidebar.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 18114,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3806,
-								3809
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1329.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/functions.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4151,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1023,
-								1026
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 223.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
-					"buffer": 3,
+					"buffer": 1,
 					"file": "assets/css/style.less",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4073,
+						"buffer_size": 4458,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2840,
-								2845
+								2736,
+								2736
 							]
 						],
 						"settings":
@@ -1363,10 +1308,108 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2233.0,
+						"translation.y": 2009.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "admin/admin-cron.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 3491,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1845.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "assets/css/dashicon.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1446,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								961,
+								961
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 126.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "assets/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5684,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								172,
+								184
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -1454,7 +1497,7 @@
 		[
 			[
 				"",
-				"C:\\Projetos\\UwAmp\\www\\tsc\\wp-content\\themes\\salient\\tsc.sublime-project"
+				"C:\\Projetos\\UwAmp\\www\\infer\\infer.sublime-project"
 			],
 			[
 				"lit",
@@ -1476,7 +1519,7 @@
 		],
 		"width": 392.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

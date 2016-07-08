@@ -15,7 +15,7 @@ function infer_form_send_report_pardot($key, $result, $email, $date) {
 	$data['email'] = 'bruno@cantuaria.net.br';
 	$data['result'] = json_encode($result);
 	$data['url'] = admin_url() . 'admin.php?page=form_monitor&generate=pdf&report='. $key;
-	$data['date'] = date('l jS \of F Y', $date);
+	$data['date'] = date('m/d/Y', $date);
 
 	if (infer_form_file_get_contents( $data ) == '0') {
 		//Something went wrong

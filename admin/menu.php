@@ -85,8 +85,8 @@ function form_monitor_plugin_page(  ) {
 							<br><input type="radio" name="frequency" value="2" id="frequency-2"> <label for="frequency-2"><?php _e("Monthly", THEMENAME); ?></label>
 						</fieldset>
 						<p><?php _e("Please email my report here:", THEMENAME); ?></p>
-						<input type="text" id="report-name" placeholder="<?php _e("Full name", THEMENAME); ?>" />
-						<input type="text" id="report-email" placeholder="E-mail" />
+						<input type="text" id="report-name" value="<?php echo get_option('infer_form_last_name_saved', ''); ?>" placeholder="<?php _e("Full name", THEMENAME); ?>" />
+						<input type="text" id="report-email" value="<?php echo get_option('infer_form_last_email_saved', ''); ?>" placeholder="E-mail" />
 						<button id="report-submit"><?php _e("Submit", THEMENAME); ?></button>
 						<p class="error-message"></p>
 					</div>

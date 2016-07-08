@@ -105,7 +105,7 @@ function form_monitor_plugin_page(  ) {
 					<div class="inside">
 						<p><?php echo sprintf(__("Infer is a predictive sales and marketing platform. We help B2B companies transform their data into actionable intelligence to guide you what to do next. Learn more at %s", THEMENAME), '<a href="https://www.infer.com/" target="_blank">infer.com</a>' ); ?></p>
 
-						<p><strong><?php _e("Latest Blog Post", THEMENAME); ?></strong></p>
+						<p><strong><?php _e("Latest Blog Posts", THEMENAME); ?></strong></p>
 						<ul>
 							<?php
 							require_once(ABSPATH . 'wp-includes/rss.php');

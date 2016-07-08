@@ -135,6 +135,9 @@ function infer_form_register_test() {
 
 	if ( !empty($test) ) {
 
+		//Create the cron and save some variables
+		update_option( 'infer_form_last_name_saved', $name );
+		update_option( 'infer_form_last_email_saved', $email );
 		infer_form_create_test_cron( $name, $email, $frequency, $test );
 		wp_die( '100' );
 

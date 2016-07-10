@@ -30,15 +30,15 @@ Infer is a predictive sales and marketing platform. We help B2B companies transf
 
 == Installation ==
 
-For screenshots, FAQ’s, and installation and usage instructions, please see [https://www.infer.com/automated-form-monitor-wordpress-plugin-for-marketing-operations](this post) on the Infer blog.
+For screenshots, FAQ’s, and installation and usage instructions, please see [this post](https://www.infer.com/automated-form-monitor-wordpress-plugin-for-marketing-operations) on the Infer blog.
 
 == Frequently Asked Questions ==
 
-For screenshots, FAQ’s, and installation and usage instructions, please see [https://www.infer.com/automated-form-monitor-wordpress-plugin-for-marketing-operations](this post) on the Infer blog.
+For screenshots, FAQ’s, and installation and usage instructions, please see [this post](https://www.infer.com/automated-form-monitor-wordpress-plugin-for-marketing-operations) on the Infer blog.
 
 == Screenshots ==
 
-For screenshots, FAQ’s, and installation and usage instructions, please see [https://www.infer.com/automated-form-monitor-wordpress-plugin-for-marketing-operations](this post) on the Infer blog.
+For screenshots, FAQ’s, and installation and usage instructions, please see [this post](https://www.infer.com/automated-form-monitor-wordpress-plugin-for-marketing-operations) on the Infer blog.
 
 == Changelog ==
 

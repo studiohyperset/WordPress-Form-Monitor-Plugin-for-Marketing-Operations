@@ -4,7 +4,7 @@ Donate link: https://www.infer.com/
 Tags: form, forms, marketing, admin, administration, analytics, automation, automatic, contact, contact form, content, reports, reporting, notification, performance, plugin, plugins, statistics, stats, tracking, wordpress
 Requires at least: 4.0
 Tested up to: 4.5
-Stable tag: 1.0
+Stable tag: 1.0.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl.html
 
@@ -42,10 +42,16 @@ For screenshots, FAQ’s, and installation and usage instructions, please see [t
 
 == Changelog ==
 
+= 1.0.1 =
+* 7/10/16 - Replaced sample CSV with Unicode (UTF-8) encoded version
+
 = 1.0 =
 * 7/8/16 - Initial release
 
 == Upgrade Notice ==
+
+= 1.0.1 =
+* 7/10/16 - Replaced sample CSV with Unicode (UTF-8) encoded version
 
 = 1.0 =
 * 7/8/16 - Initial release

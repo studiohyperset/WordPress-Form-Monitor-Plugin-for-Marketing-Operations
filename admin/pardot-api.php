@@ -12,7 +12,7 @@ function infer_form_send_report_pardot($key, $result, $email, $date) {
 	//Then send info
 	$data['action'] = 'pardot';
 	$data['title'] = 'Infer Form Report';
-	$data['email'] = 'bruno@cantuaria.net.br';
+	$data['email'] = $email;
 	$data['result'] = json_encode($result);
 	$data['url'] = admin_url() . 'admin.php?page=form_monitor&generate=pdf&report='. $key;
 	$data['date'] = date('m/d/Y', $date);

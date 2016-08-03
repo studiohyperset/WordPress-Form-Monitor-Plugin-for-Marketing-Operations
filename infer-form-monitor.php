@@ -5,7 +5,7 @@ Plugin URI: https://www.infer.com/automated-form-monitor-wordpress-plugin-for-ma
 Description: Automated form monitor plugin for marketing operations teams.
 Author: Infer
 Author URI: https://www.infer.com/
-Version: 1.0.1
+Version: 1.0.2
 */
 
 

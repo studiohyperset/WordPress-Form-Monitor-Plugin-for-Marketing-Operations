@@ -520,51 +520,19 @@
 	"buffers":
 	[
 		{
-			"file": "admin/menu.php",
-			"settings":
-			{
-				"buffer_size": 6714,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "#DEV-dont-add-to-WP-repo/pardot-handler.php",
 			"settings":
 			{
-				"buffer_size": 5045,
+				"buffer_size": 5531,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "admin/pdf/pdf.php",
+			"contents": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional //EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\" style=\"margin-top: 0px !important; padding-top: 0px !important\">\n<head>\n\n<style type=\"text/css\">\n	html, body{ margin-top: 0px !important; padding-top: 0px !important; }\n	body{ background-color:#F6F6F6; margin-top: 0px !important; padding-top: 0px !important; font-family:sans-serif; }\n	table{ margin-top: 0px !important; padding-top: 0px !important; }\n</style>\n\n\n<style type=\"text/css\">\n		a img{ color:#000001 !important; }\n\n.wysiwyg-text-align-right{ text-align: right; }\n.wysiwyg-text-align-center { text-align: center; }\n.wysiwyg-text-align-left{ text-align: left; }\n.wysiwyg-text-align-justify{ text-align: justify; }\n\nbody{ text-shadow:none; padding-top:0; padding-right:0; padding-bottom:0; padding-left:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0; color:#000000!important; font-style:normal; font-family:Arial; font-size:14px; line-height:24px; }\n\nh1, #email-392092 h1{ text-shadow:none; padding-top:0; padding-right:0; padding-bottom:0; padding-left:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0; color:#000000!important; font-weight:400; font-style:normal; font-family:Arial; font-size:36px; line-height:44px; }\n\nh2, #email-392092 h2{ text-shadow:none; padding-top:0; padding-right:0; padding-bottom:0; padding-left:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0; color:#000000!important; font-weight:400; font-style:normal; font-family:Arial; font-size:24px; line-height:32px; }\n\nh3, #email-392092 h3{ text-shadow:none; padding-top:0; padding-right:0; padding-bottom:0; padding-left:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0; color:#000000!important; font-weight:400; font-style:normal; font-family:Arial; font-size:15px; line-height:21px; }\n\np, #email-392092 p{ text-shadow:none; padding-top:0; padding-right:0; padding-bottom:0; padding-left:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0; color:#000000!important; font-style:normal; font-family:Arial; font-size:14px; line-height:24px; }\n\na, #email-392092 a{ text-shadow:none; padding-top:0; padding-right:0; padding-bottom:0; padding-left:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0; color:#1122CC!important; text-decoration:underline; }\n\n\n.h1_color_span_wrapper{ color: #000000; }\n.h2_color_span_wrapper{ color: #000000; }\n.h3_color_span_wrapper{ color: #000000; }\n.p_color_span_wrapper{ color: #000000; }\n.a_color_span_wrapper{ color: #1122CC; }\n\n\n		.mi-all{ display: block; }\n		.mi-desktop{ display: block; }\n\n	.mi-mobile{\n		display: none;\n		font-size: 0; \n		max-height: 0; \n		line-height: 0; \n		padding: 0;\n		float: left;\n		overflow: hidden;\n		mso-hide: all; /* hide elements in Outlook 2007-2013 */\n	}\n\n\n</style>\n\n<style type=\"text/css\" >\n\n	div, p, a, li, td { -webkit-text-size-adjust:none; }\n	\n	@media only screen and (max-device-width: 480px), screen and (max-width: 480px), screen and (orientation: landscape) and (max-width: 630px) {\n		\n		/* very important! all except 'all' and this current type get a display:none; */\n		.mi-desktop{ display: none !important; }\n\n		/* then show the mobile one */\n		.mi-mobile{ \n			display: block !important;\n			font-size: 12px !important;\n			max-height: none !important;\n			line-height: 1.5 !important;\n			float: none !important;\n			overflow: visible !important;\n		}\n	}\n\n</style>\n\n	\n   <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n   \n</head><body id=\"email-392092\" style=\"background: #F6F6F6; color: #000000 !important; font-family: Arial; font-size: 14px; font-style: normal; line-height: 24px; margin: 0px 0 0 0px; padding: 0px 0 0; text-shadow: none\" bgcolor=\"#F6F6F6\">\n<style type=\"text/css\">\nbody {\nmargin-top: 0px !important; padding-top: 0px !important;\n}\nbody {\nbackground-color: #F6F6F6; margin-top: 0px !important; padding-top: 0px !important; font-family: sans-serif;\n}\nbody {\ntext-shadow: none; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; color: #000000 !important; font-style: normal; font-family: Arial; font-size: 14px; line-height: 24px;\n}\n</style><img src=\"http://t.inkbrush.com/p/cp/2bd8200129fbac98/o.gif\" width=\"1\" height=\"1\"><div class=\"mi-desktop\" style=\"display: block\">\n	<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" align=\"center\" style=\"background: #F6F6F6; border: 0px none; border-collapse: collapse; border-spacing: 0px; margin: 0px; padding: 0px\" bgcolor=\"#F6F6F6\">\n		<tbody>\n			<tr align=\"center\" style=\"border: 0px none; border-collapse: collapse; border-spacing: 0px\">\n				<td valign=\"top\" align=\"center\" style=\"border: 0px none; border-collapse: collapse; border-spacing: 0px\">\n					<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\" style=\"border: 0px none; border-collapse: collapse; border-spacing: 0px; margin: 0px; padding: 0px\">\n						<tbody>\n								<tr align=\"left\" style=\"border: 0px none; border-collapse: collapse; border-spacing: 0px\">\n									<td width=\"100%\">\n										<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"border: 0px none; border-collapse: collapse; border-spacing: 0px; margin-top: 0px !important; padding-top: 0px !important\">\n											<tbody>\n												<tr align=\"left\" style=\"border: 0px none; border-collapse: collapse; border-spacing: 0px\">\n													<td width=\"100%\">\n														<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"border: 0px none; border-collapse: collapse; border-spacing: 0px; margin-top: 0px !important; padding-top: 0px !important\">\n															<tbody>\n																<tr style=\"border: 0; border-collapse: collapse; border-spacing: 0px; height: 50px\"><td width=\"100%\" valign=\"top\" height=\"50\" align=\"left\" style=\"background: #F6F6F6; font-size: 1px; line-height: 1px\" bgcolor=\"#F6F6F6\" class=\"\">&nbsp;</td>\n																</tr>\n															</tbody>\n														</table>\n													</td>\n												</tr>\n											</tbody>\n										</table>\n									</td>\n								</tr>\n							</tbody>\n						</table>\n					</td>\n				</tr>\n		</tbody>\n	</table>\n</div>\n<table align=\"center\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"background: #F6F6F6; border: 0; border-collapse: collapse; border-spacing: 0; margin: 0px 0 0; padding: 0px 0 0\" bgcolor=\"#F6F6F6\"><tbody><tr align=\"center\" style=\"border: 0; border-collapse: collapse; border-spacing: 0\">\n						<td align=\"center\" valign=\"top\" style=\"border: 0; border-collapse: collapse; border-spacing: 0\" class=\"\"><div class=\"mi-all\" style=\"display: block\">\n<table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"mi-all\" style=\"border: 0; border-collapse: collapse; border-spacing: 0; display: block; margin: 0px 0 0; min-width: 628px; padding: 0px 0 0\" width=\"628\">\n	<tbody>\n		<tr align=\"left\" style=\"border: 0; border-collapse: collapse; border-spacing: 0\">\n			<td>\n			<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0; border-collapse: collapse; border-spacing: 0; margin-top: 0px !important; min-width: 628px; padding-top: 0px !important\">\n				<tbody>\n					<tr style=\"border: 0; border-collapse: collapse; border-spacing: 0\">\n						<td align=\"left\" class=\"\" style=\"line-height: 0px; mso-line-height-rule: exactly\" valign=\"top\"><img border=\"0\" src=\"https://www.infer.com/html-mailers/plugin-report/images/image-df38089f7f698c88c83c10cea5ffc410d2d09ea0.jpg\" style=\"border: 0; display: block; height: 38px; line-height: 0px; max-height: 38px; max-width: 628px; min-height: 38px; min-width: 628px; width: 628px\"></td>\n					</tr>\n				</tbody>\n			</table>\n			</td>\n		</tr>\n		<tr align=\"left\" style=\"border: 0; border-collapse: collapse; border-spacing: 0\">\n			<td>\n			<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0; border-collapse: collapse; border-spacing: 0; margin-top: 0px !important; min-width: 628px; padding-top: 0px !important\">\n				<tbody>\n					<tr style=\"border: 0; border-collapse: collapse; border-spacing: 0\">\n						<td align=\"left\" class=\"\" style=\"line-height: 0px; mso-line-height-rule: exactly\" valign=\"top\"><a href=\"https://www.infer.com\" style=\"border: none; color: #1122CC !important; display: block; font-size: 10px;  margin-top:0; padding-top:0; margin-right:0; padding-right:0; margin-bottom:0; padding-bottom:0; margin-left:0; padding-left:0;  text-decoration: none; text-shadow: none\" target=\"_blank\"><img alt=\"Infer Logo\" border=\"0\" src=\"https://www.infer.com/html-mailers/plugin-report/images/image-a38c12bd024d30ba6bd6f05ecda88b7f8034b5b4.jpg\" style=\"border: 0; color: #000001 !important; display: block; height: 80px; line-height: 0px; max-height: 80px; max-width: 628px; min-height: 80px; min-width: 628px; width: 628px\"></a></td>\n					</tr>\n				</tbody>\n			</table>\n			</td>\n		</tr>\n		<tr align=\"left\" style=\"border: 0; border-collapse: collapse; border-spacing: 0\">\n			<td>\n			<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0; border-collapse: collapse; border-spacing: 0; margin-top: 0px !important; min-width: 628px; padding-top: 0px !important\">\n				<tbody>\n					<tr style=\"border: 0; border-collapse: collapse; border-spacing: 0\">\n						<td align=\"left\" valign=\"top\">\n						<table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0; border-collapse: collapse; border-spacing: 0; margin: 0px 0 0; min-width: 613px; padding: 0px 0 0\">\n							<tbody>\n								<tr align=\"left\" style=\"border: 0; border-collapse: collapse; border-spacing: 0\">\n									<td>\n									<table background=\"https://www.infer.com/html-mailers/plugin-report/images/header-bg.jpg\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"background-image: url(https://www.infer.com/html-mailers/plugin-report/images/header-bg.jpg); border: 0; border-collapse: collapse; border-spacing: 0; margin-top: 0px !important; min-width: 613px; padding-top: 0px !important\">\n										<tbody>\n											<tr style=\"border: 0; border-collapse: collapse; border-spacing: 0\">\n												<td align=\"left\" class=\"\" style=\"line-height: 0px; mso-line-height-rule: exactly\" valign=\"top\">\n												<p style=\"font-size: 24px; line-height: 24px; color: #fff !important; font-family: Arial; font-weight: 700; margin: 0; padding: 37px 50px 0 54px;\">###REPORT-TITLE###</p>\n\n												<p style=\"font-size: 16px; line-height: 22px; color: #d9f6d5 !important; font-family: Arial; margin: 0; padding: 14px 50px 20px 54px;\">###REPORT-DATE###</p>\n												</td>\n											</tr>\n										</tbody>\n									</table>\n									</td>\n								</tr>\n							</tbody>\n						</table>\n						</td>\n					</tr>\n				</tbody>\n			</table>\n			</td>\n		</tr>\n		<tr align=\"left\" style=\"border: 0; border-collapse: collapse; border-spacing: 0\">\n			<td>\n			<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0; border-collapse: collapse; border-spacing: 0; margin-top: 0px !important; min-width: 628px; padding-top: 0px !important\">\n				<tbody>\n					<tr style=\"border: 0; border-collapse: collapse; border-spacing: 0\">\n						<td align=\"left\" class=\"\" style=\"line-height: 0px; mso-line-height-rule: exactly\" valign=\"top\"><img border=\"0\" src=\"https://www.infer.com/html-mailers/plugin-report/images/image-f013ff930ebff2769f4397db4c70bf737feb3ab0.jpg\" style=\"border: 0; display: block; height: 147px; line-height: 0px; max-height: 147px; max-width: 53px; min-height: 147px; min-width: 53px; width: 53px\"></td>\n						<td align=\"left\" bgcolor=\"#FFFFFF\" class=\"\" height=\"147\" style=\"background: #FFFFFF\" valign=\"middle\" width=\"521\">\n						<p style=\"color: #000000 !important; font-family: Arial; font-size: 16px; font-style: normal; line-height: 22px;  margin-top:0; padding-top:0; margin-right:0; padding-right:0; margin-bottom:0; padding-bottom:0; margin-left:0; padding-left:0;  text-shadow: none\">&nbsp;</p>\n\n						<p style=\"font-family: Arial; font-size: 16px; color: #808080 !important; line-height: 22px;\">Infer is a predictive sales and marketing platform. We help B2B companies transform their data into actionable intelligence to guide you what to do next. Learn more at <a href=\"https://www.infer.com/\" target=\"_blank\">infer.com</a></p>\n						</td>\n						<td align=\"left\" class=\"\" style=\"line-height: 0px; mso-line-height-rule: exactly\" valign=\"top\"><img border=\"0\" src=\"https://www.infer.com/html-mailers/plugin-report/images/image-24607bb0eb9b95b805dbbefaaa3b633541680d3b.jpg\" style=\"border: 0; display: block; height: 147px; line-height: 0px; max-height: 147px; max-width: 54px; min-height: 147px; min-width: 54px; width: 54px\"></td>\n					</tr>\n				</tbody>\n			</table>\n			</td>\n		</tr>\n		<tr align=\"left\" style=\"border: 0; border-collapse: collapse; border-spacing: 0\">\n			<td>\n			<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0; border-collapse: collapse; border-spacing: 0; margin-top: 0px !important; min-width: 628px; padding-top: 0px !important\">\n				<tbody>\n					<tr style=\"border: 0; border-collapse: collapse; border-spacing: 0\">\n						<td align=\"left\" class=\"\" style=\"line-height: 0px; mso-line-height-rule: exactly\" valign=\"top\"><img border=\"0\" src=\"https://www.infer.com/html-mailers/plugin-report/images/image-7477f7ee70a196b023da55ee407629756e4fc721.jpg\" style=\"border: 0; display: block; height: 100%; line-height: 0px; max-height: 100%; max-width: 54px; min-height: 100%; min-width: 54px; width: 54px\"></td>\n						<td align=\"left\" valign=\"top\">\n						<table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0; border-collapse: collapse; border-spacing: 0; margin: 0px 0 0; min-width: 520px; padding: 0px 0 0\">\n							<tbody>\n								<tr align=\"left\" style=\"border: 0; border-collapse: collapse; border-spacing: 0\">\n									<td>\n									<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0; border-collapse: collapse; border-spacing: 0; margin-top: 0px !important; min-width: 520px; padding-top: 0px !important\">\n										<tbody>\n											<tr style=\"border: 0; border-collapse: collapse; border-spacing: 0\">\n												<td align=\"left\" class=\"\" style=\"line-height: 0px; mso-line-height-rule: exactly\" valign=\"top\"><img alt=\"URL and Status\" border=\"0\" src=\"https://www.infer.com/html-mailers/plugin-report/images/image-8b06362e71eb97cd1c31ce71cc8d71a1462ef61d.jpg\" style=\"border: 0; display: block; height: 47px; line-height: 0px; max-height: 47px; max-width: 520px; min-height: 47px; min-width: 520px; width: 520px\"></td>\n											</tr>\n											<tr><td>\n											###REPORT-ENTRY-URL###<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0; border-collapse: collapse; border-spacing: 0; margin-top: 0px !important; min-width: 520px; padding-top: 0px !important\"></table></td></tr>\n										</tbody>\n									</table>\n									</td>\n								</tr>\n							</tbody>\n						</table>\n						</td>\n						<td align=\"left\" class=\"\" style=\"line-height: 0px; mso-line-height-rule: exactly\" valign=\"top\"><img border=\"0\" src=\"https://www.infer.com/html-mailers/plugin-report/images/image-eb7f2a3a8710cbd2dc96af8f38c26f8d5fc774e0.jpg\" style=\"border: 0; display: block; height: 100%; line-height: 0px; max-height: 100%; max-width: 54px; min-height: 100%; min-width: 54px; width: 54px\"></td>\n					</tr>\n				</tbody>\n			</table>\n			</td>\n		</tr>\n		<tr align=\"left\" style=\"border: 0; border-collapse: collapse; border-spacing: 0\">\n			<td>\n			<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0; border-collapse: collapse; border-spacing: 0; margin-top: 0px !important; min-width: 628px; padding-top: 0px !important\">\n				<tbody>\n					<tr style=\"border: 0; border-collapse: collapse; border-spacing: 0\">\n						<td align=\"left\" class=\"\" style=\"line-height: 0px; mso-line-height-rule: exactly\" valign=\"top\"><img border=\"0\" src=\"https://www.infer.com/html-mailers/plugin-report/images/image-fe5f1e1e07091a7ed032aa5913ee74876ce9f59a.jpg\" style=\"border: 0; display: block; height: 31px; line-height: 0px; max-height: 31px; max-width: 628px; min-height: 31px; min-width: 628px; width: 628px\"></td>\n					</tr>\n				</tbody>\n			</table>\n			</td>\n		</tr>\n		<tr align=\"left\" style=\"border: 0; border-collapse: collapse; border-spacing: 0\">\n			<td>\n			<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0; border-collapse: collapse; border-spacing: 0; margin-top: 0px !important; min-width: 628px; padding-top: 0px !important\">\n				<tbody>\n					<tr style=\"border: 0; border-collapse: collapse; border-spacing: 0\">\n						<td align=\"left\" class=\"\" style=\"line-height: 0px; mso-line-height-rule: exactly\" valign=\"top\"><img border=\"0\" src=\"https://www.infer.com/html-mailers/plugin-report/images/image-2f80986542a0be20a51ea8d325b586f51b27aa65.jpg\" style=\"border: 0; display: block; height: 60px; line-height: 0px; max-height: 60px; max-width: 172px; min-height: 60px; min-width: 172px; width: 172px\"></td>\n						<td align=\"left\" class=\"\" style=\"line-height: 0px; mso-line-height-rule: exactly\" valign=\"top\"><a href=\"###REPORT-LINK###\" style=\"border: none; color: #1122CC !important; display: block; font-size: 10px;  margin-top:0; padding-top:0; margin-right:0; padding-right:0; margin-bottom:0; padding-bottom:0; margin-left:0; padding-left:0;  text-decoration: none; text-shadow: none\" target=\"_blank\"><img alt=\"Download Report\" border=\"0\" src=\"https://www.infer.com/html-mailers/plugin-report/images/image-04d7557a997d613fc12a8c4e19f0a1e20895e938.jpg\" style=\"border: 0; color: #000001 !important; display: block; height: 60px; line-height: 0px; max-height: 60px; max-width: 284px; min-height: 60px; min-width: 284px; width: 284px\"></a></td>\n						<td align=\"left\" class=\"\" style=\"line-height: 0px; mso-line-height-rule: exactly\" valign=\"top\"><img border=\"0\" src=\"https://www.infer.com/html-mailers/plugin-report/images/image-26314273caf3b999a71e8dfea4055789ac5a6fe0.jpg\" style=\"border: 0; display: block; height: 60px; line-height: 0px; max-height: 60px; max-width: 172px; min-height: 60px; min-width: 172px; width: 172px\"></td>\n					</tr>\n				</tbody>\n			</table>\n			</td>\n		</tr>\n		<tr align=\"left\" style=\"border: 0; border-collapse: collapse; border-spacing: 0\">\n			<td>\n			<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0; border-collapse: collapse; border-spacing: 0; margin-top: 0px !important; min-width: 628px; padding-top: 0px !important\">\n				<tbody>\n					<tr style=\"border: 0; border-collapse: collapse; border-spacing: 0\">\n						<td align=\"left\" class=\"\" style=\"line-height: 0px; mso-line-height-rule: exactly\" valign=\"top\"><img border=\"0\" src=\"https://www.infer.com/html-mailers/plugin-report/images/image-25e0a354716ba248a95570dd29a6673efc00a400.jpg\" style=\"border: 0; display: block; height: 89px; line-height: 0px; max-height: 89px; max-width: 628px; min-height: 89px; min-width: 628px; width: 628px\"></td>\n					</tr>\n				</tbody>\n			</table>\n			</td>\n		</tr>\n		<tr align=\"left\" bgcolor=\"#F6F6F6\" style=\"background: #F6F6F6; border: 0; border-collapse: collapse; border-spacing: 0\">\n			<td>\n			<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0; border-collapse: collapse; border-spacing: 0; margin-top: 0px !important; min-width: 628px; padding-top: 0px !important\">\n				<tbody>\n					<tr style=\"border: 0; border-collapse: collapse; border-spacing: 0\">\n						<td align=\"center\" bgcolor=\"#F6F6F6\" class=\"\" height=\"112\" style=\"background: #F6F6F6\" valign=\"middle\" width=\"628\">\n						<p style=\"color: #b3b3b3 !important; font-family: Arial; font-size: 11px; font-style: normal; line-height: 24px;  margin-top:0; padding-top:0; margin-right:0; padding-right:0; margin-bottom:0; padding-bottom:0; margin-left:0; padding-left:0;  text-shadow: none\">© 2015 Infer Inc. 444 Castro St. Mountain View, CA 94041</p>\n\n						<p style=\"color: #b3b3b3 !important; font-family: Arial; font-size: 11px; font-style: normal; line-height: 24px;  margin-top:0; padding-top:0; margin-right:0; padding-right:0; margin-bottom:0; padding-bottom:0; margin-left:0; padding-left:0;  text-shadow: none\">You are receiving this email because you opted in to Infer's form tester reports<br>\n						<a href=\"%%unsubscribe%%\">Unsubscribe</a> from email communications<br>\n						<br>\n						%%account_address%%</p>\n						</td>\n					</tr>\n				</tbody>\n			</table>\n			</td>\n		</tr>\n		<tr align=\"left\" style=\"border: 0; border-collapse: collapse; border-spacing: 0\">\n			<td>\n			<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0; border-collapse: collapse; border-spacing: 0; margin-top: 0px !important; min-width: 628px; padding-top: 0px !important\">\n				<tbody>\n					<tr style=\"border: 0; border-collapse: collapse; border-spacing: 0\">\n						<td align=\"left\" class=\"\" style=\"line-height: 0px; mso-line-height-rule: exactly\" valign=\"top\"><img border=\"0\" src=\"https://www.infer.com/html-mailers/plugin-report/images/image-1386caac8507197532f08b2296d87ba91661e549.jpg\" style=\"border: 0; display: block; height: 42px; line-height: 0px; max-height: 42px; max-width: 628px; min-height: 42px; min-width: 628px; width: 628px\"></td>\n					</tr>\n				</tbody>\n			</table>\n			</td>\n		</tr>\n	</tbody>\n</table>\n</div>\n</td>\n					</tr>\n			</tbody></table>\n\n			\n\n			<div style=\"display: none; font: 15px courier; white-space: nowrap\">\n			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \n			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \n			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\n			</div>\n</body>\n</html>",
 			"settings":
 			{
-				"buffer_size": 21161,
+				"buffer_size": 21497,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "assets/css/style.less",
-			"settings":
-			{
-				"buffer_size": 4458,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "assets/css/dashicon.css",
-			"settings":
-			{
-				"buffer_size": 1446,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "assets/css/style.css",
-			"settings":
-			{
-				"buffer_size": 5684,
-				"line_ending": "Unix"
 			}
 		}
 	],
@@ -819,17 +787,24 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Projetos/UwAmp/www/form/wp-content/plugins/infer-form-monitor",
-		"/C/Projetos/UwAmp/www/form/wp-content/plugins/infer-form-monitor/#DEV-dont-add-to-WP-repo",
-		"/C/Projetos/UwAmp/www/form/wp-content/plugins/infer-form-monitor/admin",
-		"/C/Projetos/UwAmp/www/form/wp-content/plugins/infer-form-monitor/admin/pdf",
-		"/C/Projetos/UwAmp/www/form/wp-content/plugins/infer-form-monitor/assets",
-		"/C/Projetos/UwAmp/www/form/wp-content/plugins/infer-form-monitor/assets/css",
-		"/C/Projetos/UwAmp/www/form/wp-content/plugins/infer-form-monitor/assets/fonts",
-		"/C/Projetos/UwAmp/www/form/wp-content/plugins/infer-form-monitor/assets/js"
+		"/C/Projetos/UwAmp/www/form/wp-content/plugins/infer-automated-form-monitor-for-marketing-operations",
+		"/C/Projetos/UwAmp/www/form/wp-content/plugins/infer-automated-form-monitor-for-marketing-operations/#DEV-dont-add-to-WP-repo",
+		"/C/Projetos/UwAmp/www/form/wp-content/plugins/infer-automated-form-monitor-for-marketing-operations/admin",
+		"/C/Projetos/UwAmp/www/form/wp-content/plugins/infer-automated-form-monitor-for-marketing-operations/assets",
+		"/C/Projetos/UwAmp/www/form/wp-content/plugins/infer-automated-form-monitor-for-marketing-operations/assets/js"
 	],
 	"file_history":
 	[
+		"/C/Users/Bruno/Downloads/sample-csv.csv",
+		"/C/Projetos/UwAmp/www/form/wp-content/plugins/infer-automated-form-monitor-for-marketing-operations/admin/admin-ajax.php",
+		"/C/Projetos/UwAmp/www/form/wp-content/plugins/infer-automated-form-monitor-for-marketing-operations/infer-form-monitor.php",
+		"/C/Projetos/UwAmp/www/form/wp-content/plugins/infer-automated-form-monitor-for-marketing-operations/admin/menu.php",
+		"/C/Projetos/UwAmp/www/form/wp-content/plugins/infer-automated-form-monitor-for-marketing-operations/admin/report-export.php",
+		"/C/Projetos/UwAmp/www/form/wp-content/plugins/infer-automated-form-monitor-for-marketing-operations/admin/pardot-api.php",
+		"/C/Projetos/UwAmp/www/form/wp-content/plugins/infer-automated-form-monitor-for-marketing-operations/assets/css/style.css",
+		"/C/Projetos/UwAmp/www/form/wp-content/plugins/infer-automated-form-monitor-for-marketing-operations/assets/css/dashicon.css",
+		"/C/Projetos/UwAmp/www/form/wp-content/plugins/infer-automated-form-monitor-for-marketing-operations/assets/css/style.less",
+		"/C/Projetos/UwAmp/www/form/wp-content/plugins/infer-automated-form-monitor-for-marketing-operations/admin/pdf/pdf.php",
 		"/C/Users/Bruno/Downloads/jsPDF-1.2.60/examples/html2pdf/tables.html",
 		"/C/Users/Bruno/Downloads/jsPDF-1.2.60/index.html",
 		"/C/Projetos/UwAmp/www/form/wp-content/plugins/infer-form-monitor/admin/pdf/src/FrameReflower/TableRow.php",
@@ -947,17 +922,7 @@
 		"/C/Users/Bruno/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-1/index.html",
 		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/common-slide-button.php",
 		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/prospect/splash.php",
-		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/prospect/glance.php",
-		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/customers/socialtables/cta.php",
-		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/customers/socialtables/challenge.php",
-		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/assets/less/sub/page-profile-builder.less",
-		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/customers/socialtables/hero.php",
-		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/assets/less/sub/customer-socialtables.less",
-		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/customers/socialtables/quote.php",
-		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/assets/less/_mixins.less",
-		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/assets/less/sub/page-try.less",
-		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/assets/less/sub/page-prospect.less",
-		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/head.php"
+		"/C/Projetos/UwAmp/www/infer/wp-content/themes/Infer/templates/pages/prospect/glance.php"
 	],
 	"find":
 	{
@@ -968,6 +933,7 @@
 		"height": 90.0,
 		"where_history":
 		[
+			"C:\\Projetos\\UwAmp\\www\\form\\wp-content\\plugins\\infer-automated-form-monitor-for-marketing-operations",
 			"C:\\Projetos\\UwAmp\\www\\form\\wp-content\\plugins\\infer-form-monitor\\admin\\pdf",
 			"C:\\Projetos\\UwAmp\\www\\form\\wp-includes",
 			"C:\\Projetos\\UwAmp\\www\\infer\\wp-content\\themes\\Infer",
@@ -988,6 +954,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"205px",
+			"plugins_url",
+			"205px",
+			"inferFormSanitizeFiles",
+			"errorUploadedFile",
+			"to be a csv",
 			"tbody",
 			"</tbody>",
 			"<tbody>",
@@ -1109,13 +1081,7 @@
 			"#head .head-menu .menu",
 			".menu",
 			"overflow: a",
-			".menu",
-			"toggle",
-			"head-title",
-			"head-social",
-			"$url",
-			"footer",
-			"navsig"
+			".menu"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1123,6 +1089,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"100%",
 			"",
 			"\\'",
 			"\"",
@@ -1256,56 +1223,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "admin/menu.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6714,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6714,
-								6714
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2243.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "#DEV-dont-add-to-WP-repo/pardot-handler.php",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 5045,
+						"buffer_size": 5531,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3993,
-								3754
+								2544,
+								2549
 							]
 						],
 						"settings":
@@ -1317,27 +1252,26 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1428.0,
+						"translation.y": 1064.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "admin/pdf/pdf.php",
+					"buffer": 1,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 21161,
+						"buffer_size": 21497,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								21065,
-								21065
+								0,
+								21497
 							]
 						],
 						"settings":
@@ -1345,10 +1279,11 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2727.0,
+						"translation.y": 4475.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1357,107 +1292,8 @@
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 3,
-					"file": "assets/css/style.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4458,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1743,
-								1743
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1099.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "assets/css/dashicon.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1446,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								961,
-								961
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 126.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "assets/css/style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5684,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								172,
-								184
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1543,7 +1379,7 @@
 		[
 			[
 				"",
-				"C:\\Projetos\\UwAmp\\www\\infer\\infer.sublime-project"
+				"C:\\Projetos\\UwAmp\\www\\chameleon\\wp-content\\themes\\chameleon\\chamaleon.sublime-project"
 			],
 			[
 				"lit",
@@ -1565,7 +1401,7 @@
 		],
 		"width": 392.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

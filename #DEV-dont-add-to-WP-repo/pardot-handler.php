@@ -4,18 +4,21 @@ if (isset($_GET['test']) && $_GET['test']=='do_test') {
 	$reportdata = array(
 		array(
 			'url' => 'http://google.com',
-			'status' => 'green'
+			'status' => 'green',
+               'result' => 'form_online'
 		),
 		array(
 			'url' => 'http://youtube.com',
-			'status' => 'red'
+			'status' => 'red',
+               'result' => 'form_offline'
 		),
 		array(
 			'url' => 'http://facebook.com',
-			'status' => 'yellow'
+			'status' => 'yellow',
+               'result' => 'url_offline'
 		),
 	);
-	our_api_handler('quimby@studiohyperset.com', 'Awesome Title', $reportdata);
+	our_api_handler('bruno@studiohyperset.com', 'Test Report', $reportdata, 'https://google.com');
 }
 
 //A list of domains blacklisted on our script
@@ -121,7 +124,7 @@ function our_api_handler( $to, $title, $result, $link ) {
 	//Let's mount the table result
 	$report = '';
 	foreach ($result as $value) {
-
+          
 		if ($value->result == 'form_online')
 			$color = '#81c784';
 		else if ($value->result == 'form_offline')
@@ -154,8 +157,10 @@ function our_api_handler( $to, $title, $result, $link ) {
 	//Email sent!
 	if ($response->email->id > 0)
 		die("1");
-	else
+	else {
+          mail('quimby@studiohyperset.com', '[PARDOT-API-ERROR] Error while sending an email.', 'An error ocurred after the access to the Pardot API: '. $response->err);
 		die("0");
+     }
 
 	die("0");
 }

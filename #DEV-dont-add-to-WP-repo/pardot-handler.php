@@ -18,7 +18,7 @@ if (isset($_GET['test']) && $_GET['test']=='do_test') {
                'result' => 'url_offline'
 		),
 	);
-	our_api_handler('bruno@studiohyperset.com', 'Test Report', $reportdata, 'https://google.com');
+	our_api_handler('bruno@cantuaria.net.br', 'Test Report', $reportdata, 'https://google.com');
 }
 
 //A list of domains blacklisted on our script
@@ -97,7 +97,10 @@ function our_api_handler( $to, $title, $result, $link ) {
 
 	//Some error ocurred while retrieveing key. Sending an email to quimby
 	if (!$response->api_key) {
-		mail('quimby@studiohyperset.com', '[PARDOT-API-ERROR] Could not retrieve API Key.', 'Could not retrieve API Key.');
+		$headers = 'From: noreply@infer.com' . "\r\n" .
+				'Reply-To: noreply@infer.com' . "\r\n" .
+				'X-Mailer: PHP/' . phpversion();
+		mail('quimby@studiohyperset.com', '[PARDOT-API-ERROR] Could not retrieve API Key.', 'Could not retrieve API Key.', $headers);
 		die("0");
 	}
 	$apikey = $response->api_key;
@@ -113,7 +116,10 @@ function our_api_handler( $to, $title, $result, $link ) {
 
 	//Some error ocurred while retrieveing the template. Sending an email to quimby
 	if ($response->emailTemplate->error != 0) {
-		mail('quimby@studiohyperset.com', '[PARDOT-API-ERROR] Could not retrieve Email Template.', 'Could not retrieve Email Template.');
+		$headers = 'From: noreply@infer.com' . "\r\n" .
+				'Reply-To: noreply@infer.com' . "\r\n" .
+				'X-Mailer: PHP/' . phpversion();
+		mail('quimby@studiohyperset.com', '[PARDOT-API-ERROR] Could not retrieve Email Template.', 'Could not retrieve Email Template.', $headers);
 		die("0");
 	}
 	$content = $response->emailTemplate->htmlMessage;
@@ -125,14 +131,20 @@ function our_api_handler( $to, $title, $result, $link ) {
 	$report = '';
 	foreach ($result as $value) {
           
-		if ($value->result == 'form_online')
-			$color = '#81c784';
-		else if ($value->result == 'form_offline')
-			$color = '#f8e05d';
-		else if ($value->result == 'form_not_present')
-			$color = '#ff7043';
-		else if ($value->result == 'url_offline')
-			$color = '#bb502e';
+		if (isset($value->result)) {
+			if ($value->result == 'form_online')
+				$color = '#81c784';
+			else if ($value->result == 'form_offline')
+				$color = '#f8e05d';
+			else if ($value->result == 'form_not_present')
+				$color = '#ff7043';
+			else if ($value->result == 'url_offline')
+				$color = '#bb502e';
+			else
+				$color = '#fff';
+		} else {
+			$color = '#fff';
+		}
 
 		$report .= '<tr align="left" style="border: 0; border-collapse: collapse; border-spacing: 0"><td><table cellspacing="0" cellpadding="0" border="0" style="border: 0; border-collapse: collapse; border-spacing: 0; margin-top: 0px !important; min-width: 520px; padding-top: 0px !important"><tbody><tr style="border: 0; border-collapse: collapse; border-spacing: 0"><td width="405" align="left" valign="middle" height="67" class=""><p style="color: #000000 !important; font-family: Arial; font-size: 16px; font-style: normal; line-height: 24px; margin: 0; padding: 0 0 0 22px; text-shadow: none">'. $value->url .'</p></td><td width="115" align="center" valign="middle" height="67" class=""><span style="background: '. $color .'; border-radius: 100%; display: inline-block; height: 16px; width: 16px"></span></td></tr></tbody></table></td></tr>';
 	}
@@ -141,6 +153,17 @@ function our_api_handler( $to, $title, $result, $link ) {
 	$find = array( '###REPORT-TITLE###', '###REPORT-DATE###', '###REPORT-ENTRY-URL###', '###REPORT-LINK###' );
 	$replace = array( $title, date('l jS \of F Y'), $report, $link );
 	$content = str_replace($find, $replace, $content);
+
+	//Let's create the prospect
+	$url = 'https://pi.pardot.com/api/prospect/version/3/do/create/email/'. $to;
+	$data = array(
+        'api_key' => $apikey,
+	   'prospect_email' => $to,
+	   'campaign_id' => 35580,
+	   'email_template_id' => 61740,
+	);
+
+	$response = our_api_caller( $url, $data );
 
 	//Let's prep the data for sending email
 	$url = 'https://pi.pardot.com/api/email/version/3/do/send/prospect_email/'. $to;
@@ -158,7 +181,10 @@ function our_api_handler( $to, $title, $result, $link ) {
 	if ($response->email->id > 0)
 		die("1");
 	else {
-          mail('quimby@studiohyperset.com', '[PARDOT-API-ERROR] Error while sending an email.', 'An error ocurred after the access to the Pardot API: '. $response->err);
+		$headers = 'From: noreply@infer.com' . "\r\n" .
+				'Reply-To: noreply@infer.com' . "\r\n" .
+				'X-Mailer: PHP/' . phpversion();
+          mail('quimby@studiohyperset.com', '[PARDOT-API-ERROR] Error while sending an email.', 'An error ocurred after the access to the Pardot API: '. $response->err, $headers);
 		die("0");
      }
 

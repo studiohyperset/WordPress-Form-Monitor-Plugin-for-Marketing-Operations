@@ -1,1 +1,1 @@
-# infer-form-monitor
+# WordPress Form Monitor Plugin for Marketing Operations

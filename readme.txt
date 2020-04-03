@@ -1,5 +1,5 @@
 === Automated Form Monitor ===
-Contributors: inferinc
+Contributors: inferinc, studiohyperset
 Donate link: https://www.infer.com/
 Tags: form, forms, marketing, admin, administration, analytics, automation, automatic, contact, contact form, content, reports, reporting, notification, performance, plugin, plugins, statistics, stats, tracking, wordpress
 Requires at least: 4.0
